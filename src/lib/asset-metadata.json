@@ -1,0 +1,256 @@
+{
+  "case-juridik.png": {
+    "src": "/assets/images/case-juridik-1200.webp",
+    "width": 1200,
+    "height": 800,
+    "srcSet": "/assets/images/case-juridik-480.webp 480w, /assets/images/case-juridik-768.webp 768w, /assets/images/case-juridik-1200.webp 1200w",
+    "sizes": "(max-width: 767px) calc(100vw - 48px), (max-width: 1199px) 50vw, 560px",
+    "variants": [
+      {
+        "src": "/assets/images/case-juridik-480.webp",
+        "bytes": 29838,
+        "sha256": "fa429844b2437003c7641f8fdcb516d12f4ac7a6e31de2ce4b80f9fb171e8061",
+        "width": 480,
+        "height": 320
+      },
+      {
+        "src": "/assets/images/case-juridik-768.webp",
+        "bytes": 59048,
+        "sha256": "2ec25f9fb2871a2125602fbbe928496d9c48f06705e5dc410909a50617ec4a50",
+        "width": 768,
+        "height": 512
+      },
+      {
+        "src": "/assets/images/case-juridik-1200.webp",
+        "bytes": 106128,
+        "sha256": "cc1a0988c08041c92f37a4819274eb59759f7114cd53d5b2572c4955ff35ea8c",
+        "width": 1200,
+        "height": 800
+      }
+    ]
+  },
+  "case-kaffehuset.png": {
+    "src": "/assets/images/case-kaffehuset-1200.webp",
+    "width": 1200,
+    "height": 800,
+    "srcSet": "/assets/images/case-kaffehuset-480.webp 480w, /assets/images/case-kaffehuset-768.webp 768w, /assets/images/case-kaffehuset-1200.webp 1200w",
+    "sizes": "(max-width: 767px) calc(100vw - 48px), (max-width: 1199px) 50vw, 560px",
+    "variants": [
+      {
+        "src": "/assets/images/case-kaffehuset-480.webp",
+        "bytes": 33296,
+        "sha256": "d65c78160bec69c571d1c61d32b51cc84101b18b0dd425a661eec493aa0a631e",
+        "width": 480,
+        "height": 320
+      },
+      {
+        "src": "/assets/images/case-kaffehuset-768.webp",
+        "bytes": 63226,
+        "sha256": "efa5d730d659ed5de206df130a784687f6cf96141166d64f8e79fbeb6d5abf46",
+        "width": 768,
+        "height": 512
+      },
+      {
+        "src": "/assets/images/case-kaffehuset-1200.webp",
+        "bytes": 112280,
+        "sha256": "72ea4f6fb6b4d9551cec174a8c486dd18be3ec3d4e338cd124c884334f85442f",
+        "width": 1200,
+        "height": 800
+      }
+    ]
+  },
+  "case-rozans.png": {
+    "src": "/assets/images/case-rozans-1200.webp",
+    "width": 1200,
+    "height": 800,
+    "srcSet": "/assets/images/case-rozans-480.webp 480w, /assets/images/case-rozans-768.webp 768w, /assets/images/case-rozans-1200.webp 1200w",
+    "sizes": "(max-width: 767px) calc(100vw - 48px), (max-width: 1199px) 50vw, 560px",
+    "variants": [
+      {
+        "src": "/assets/images/case-rozans-480.webp",
+        "bytes": 28338,
+        "sha256": "5ffba0260d15ed7c591c9e4dcc66192e30036f56bedc12e9966676e2da988bf6",
+        "width": 480,
+        "height": 320
+      },
+      {
+        "src": "/assets/images/case-rozans-768.webp",
+        "bytes": 52758,
+        "sha256": "23cca47673eb54d5d4e6f830165ba4b47cca7ced957f08a9ea7f24c4e9be9a13",
+        "width": 768,
+        "height": 512
+      },
+      {
+        "src": "/assets/images/case-rozans-1200.webp",
+        "bytes": 94812,
+        "sha256": "bd6cb7c92fbdcf28331c24c50085f9cd582861617302b3a3885e750e0eddab25",
+        "width": 1200,
+        "height": 800
+      }
+    ]
+  },
+  "dalarna-winter-desktop.jpg": {
+    "src": "/assets/images/dalarna-winter-desktop-1920.webp",
+    "width": 1920,
+    "height": 1072,
+    "srcSet": "/assets/images/dalarna-winter-desktop-960.webp 960w, /assets/images/dalarna-winter-desktop-1440.webp 1440w, /assets/images/dalarna-winter-desktop-1920.webp 1920w",
+    "sizes": "100vw",
+    "variants": [
+      {
+        "src": "/assets/images/dalarna-winter-desktop-960.webp",
+        "bytes": 30216,
+        "sha256": "fb9487e4a482c37243b8b67e50e353b5e49eeb4451e9aee2846bcb7f38780adc",
+        "width": 960,
+        "height": 536
+      },
+      {
+        "src": "/assets/images/dalarna-winter-desktop-1440.webp",
+        "bytes": 51342,
+        "sha256": "48c3eda8ed2f2bfc642e2e50f9b02f56b248ea59fedbef080ef2a928444748bd",
+        "width": 1440,
+        "height": 804
+      },
+      {
+        "src": "/assets/images/dalarna-winter-desktop-1920.webp",
+        "bytes": 77768,
+        "sha256": "7e053eef2a1ce34598d826853ef2ab77edd6d598c5723d9c1096401dadb401f1",
+        "width": 1920,
+        "height": 1072
+      }
+    ]
+  },
+  "dalarna-winter-mobile.png": {
+    "src": "/assets/images/dalarna-winter-mobile-960.webp",
+    "width": 960,
+    "height": 1196,
+    "srcSet": "/assets/images/dalarna-winter-mobile-480.webp 480w, /assets/images/dalarna-winter-mobile-768.webp 768w, /assets/images/dalarna-winter-mobile-960.webp 960w",
+    "sizes": "100vw",
+    "variants": [
+      {
+        "src": "/assets/images/dalarna-winter-mobile-480.webp",
+        "bytes": 15898,
+        "sha256": "d5da8808d3bf5b4eae794d04b8ed50fc465d316d415428d8f60a5e047a28f62b",
+        "width": 480,
+        "height": 598
+      },
+      {
+        "src": "/assets/images/dalarna-winter-mobile-768.webp",
+        "bytes": 31634,
+        "sha256": "52e908a1fc188fc3d807209d9bc002531f89e7f059a965d5f4997c70afcfa23a",
+        "width": 768,
+        "height": 957
+      },
+      {
+        "src": "/assets/images/dalarna-winter-mobile-960.webp",
+        "bytes": 44346,
+        "sha256": "74a056264d917c145cc19173789baed7bc101fa1654e0a721595535ae3a38126",
+        "width": 960,
+        "height": 1196
+      }
+    ]
+  },
+  "samir-ahmad.png": {
+    "src": "/assets/images/samir-ahmad-677.webp",
+    "width": 677,
+    "height": 509,
+    "srcSet": "/assets/images/samir-ahmad-480.webp 480w, /assets/images/samir-ahmad-677.webp 677w",
+    "sizes": "(max-width: 767px) calc(100vw - 48px), 40vw",
+    "variants": [
+      {
+        "src": "/assets/images/samir-ahmad-480.webp",
+        "bytes": 15686,
+        "sha256": "138317b3ca2994398610a9edd21e36f48d63bcb75df0a575708dae262e0cc516",
+        "width": 480,
+        "height": 361
+      },
+      {
+        "src": "/assets/images/samir-ahmad-677.webp",
+        "bytes": 23672,
+        "sha256": "e520070f8296c20cad5ef938e4ea47b1d8f1ad9af07135a08db77353abfd5103",
+        "width": 677,
+        "height": 509
+      }
+    ]
+  },
+  "synord-mark.png": {
+    "src": "/assets/images/synord-mark-256.webp",
+    "width": 256,
+    "height": 256,
+    "srcSet": "/assets/images/synord-mark-64.webp 64w, /assets/images/synord-mark-128.webp 128w, /assets/images/synord-mark-256.webp 256w",
+    "sizes": "64px",
+    "variants": [
+      {
+        "src": "/assets/images/synord-mark-64.webp",
+        "bytes": 3746,
+        "sha256": "6e05b6fca4bc344a8535676fe771c7883664a2b233773f9150fc52cdcc444843",
+        "width": 64,
+        "height": 64
+      },
+      {
+        "src": "/assets/images/synord-mark-128.webp",
+        "bytes": 8558,
+        "sha256": "1381ab59aa3eb7e2b3e8045b47d2534168feb21a997be2b630de913c5575fd6f",
+        "width": 128,
+        "height": 128
+      },
+      {
+        "src": "/assets/images/synord-mark-256.webp",
+        "bytes": 18702,
+        "sha256": "163a1bd156d857fe29f6de966606f65e83222de239d16433f10f2af38dcfabcd",
+        "width": 256,
+        "height": 256
+      }
+    ]
+  },
+  "heroPoster": {
+    "src": "/assets/images/hero-poster-1280.webp",
+    "width": 1280,
+    "height": 720,
+    "srcSet": "/assets/images/hero-poster-960.webp 960w, /assets/images/hero-poster-1280.webp 1280w",
+    "sizes": "100vw",
+    "variants": [
+      {
+        "src": "/assets/images/hero-poster-960.webp",
+        "bytes": 108606,
+        "sha256": "5a67e71f3233c607b9a57d391a072ee4e19e8f0d3045591fbd9eee30b1cf9bb6",
+        "width": 960,
+        "height": 540
+      },
+      {
+        "src": "/assets/images/hero-poster-1280.webp",
+        "bytes": 149396,
+        "sha256": "b791e60572012cc9a7b8f79ccf4c675a3bfbacb97ff88392a5e4782dacfd9e86",
+        "width": 1280,
+        "height": 720
+      }
+    ]
+  },
+  "heroMobile": {
+    "src": "/assets/images/hero-mobile-768.webp",
+    "width": 768,
+    "height": 432,
+    "srcSet": "/assets/images/hero-mobile-768.webp 768w",
+    "sizes": "100vw",
+    "variants": [
+      {
+        "src": "/assets/images/hero-mobile-768.webp",
+        "bytes": 77550,
+        "sha256": "9d2c620ea5e710af80c96ea4a81748a7b1ab9b67d8cb4bbfd9a36149be6c483b",
+        "width": 768,
+        "height": 432
+      }
+    ]
+  },
+  "heroVideo": {
+    "src": "/assets/video/dalanord-hero.webm",
+    "bytes": 1887411,
+    "sha256": "7aa1b5a999a6ae52d667e362221f181507d591591c8c62ea520725c5db9fe52e"
+  },
+  "socialShare": {
+    "src": "/assets/social-share.jpg",
+    "bytes": 45817,
+    "sha256": "5dfc9c06ca3831e32174a2700862982c1934b3e9997bc5d0969379fd563a9592",
+    "width": 1200,
+    "height": 630
+  }
+}

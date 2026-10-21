@@ -1,0 +1,16 @@
+- The project must build and run independently of Lovable. Keep required media, fonts, source, configuration and documentation in Git. Do not add runtime dependencies on Lovable assets, build plugins, globals or telemetry.
+- Never rewrite published Git history or force push. Develop on a separate branch; do not publish without an explicit request.
+- Store required original media in public/assets/originals and optimized runtime variants in public/assets. The hero video is the only exception: keep one optimized file in public/assets/video and retain its source URL, original checksum and processing details in the asset inventory. Keep source URLs, checksums, sizes and missing assets in the inventory; use the reproducible import/optimization scripts.
+- Never replace a missing user-selected image with another image. Report its original URL, usage and expected local path.
+- Use a local poster as the hero fallback on every device and keep it for reduced-motion users. Assign the hero video source on mobile, tablet and desktop only after a no-reduced-motion media query matches; CSS hiding alone is insufficient.
+- Use a picture element with local mobile and desktop sources for the About winter photograph, and keep About and founder copy in the shared content module.
+- Keep the nine services on one overview page with expandable deliverables; legacy detail URLs redirect to the matching section to preserve published links.
+- Render technology logos from local vector files in a duplicated CSS marquee with reduced-motion support.
+- Centralize visual tokens in the global stylesheet and interactive variants in the shared Button component so every page stays consistent.
+- Use the shared quote Button variant for enquiry CTAs and the masked CSS border animation for repeated grid cards; this preserves hit targets and supports reduced motion without per-card scripts.
+- Pricing add-ons use the shared pricingAddon Button variant with a CSS-masked pointer-proximity border and solid selected state; keep this interaction scoped to the calculator and preserve its quote summary.
+- Keep ready-made pricing package contents in native details disclosures so compact cards remain keyboard-accessible without changing booking flows.
+- Measure timeline segments between adjacent node centres and retain the furthest reached progress in the shared ProcessTimeline; this keeps completed connections visible across scroll, touch and keyboard interactions.
+- Keep numeric price rules and stable quote IDs shared between calculator, contact form and server. Recompute totals on the server; never trust totals from URLs. Start price is 2 995 kr exkl. moms, Starter remains 4 995 kr, and a standalone CMS/admin add-on is 1 495 kr.
+- Keep enquiry secrets on the server and outside Git. Never send real test emails without explicit approval; only show success after provider acceptance. Preserve CSRF validation.
+- DALADANA is run by Samir Ahmad. Use digitalbyrå, retain verified education, and do not invent team members, customer results, contact details or social profiles.

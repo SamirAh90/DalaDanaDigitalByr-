@@ -1,0 +1,4 @@
+# Keep imported resources byte-identical across Windows/Linux for verified SHA-256.
+public/assets/** -text
+# Upstream license texts are intentionally preserved verbatim, including whitespace.
+public/assets/fonts/*-OFL.txt -whitespace

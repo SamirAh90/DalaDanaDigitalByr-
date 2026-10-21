@@ -1,0 +1,11 @@
+node_modules
+.git
+.env
+.env.*
+.output
+dist
+test-results
+playwright-report
+reports
+.codex
+.agents

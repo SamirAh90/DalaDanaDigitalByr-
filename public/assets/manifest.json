@@ -1,0 +1,1061 @@
+{
+  "version": 1,
+  "importedAt": "2026-10-20T08:57:14.926Z",
+  "note": "Origins are provenance only. Production and build use committed local files; reimport is optional.",
+  "assets": [
+    {
+      "id": "case-juridik.png",
+      "sourceManifest": "src/assets/case-juridik.png.asset.json",
+      "originalUrl": "/__l5e/assets-v1/3c5f76f4-7c93-49c8-846b-266b59978b85/case-juridik.png",
+      "requestedUrls": [
+        "https://daladana.lovable.app/__l5e/assets-v1/3c5f76f4-7c93-49c8-846b-266b59978b85/case-juridik.png",
+        "https://webarea-rediscovered.lovable.app/__l5e/assets-v1/3c5f76f4-7c93-49c8-846b-266b59978b85/case-juridik.png"
+      ],
+      "localPath": "/assets/originals/case-juridik.png",
+      "type": "image/png",
+      "usage": [
+        "src/content/site.ts",
+        "src/routes/index.tsx",
+        "src/routes/kundcase.tsx"
+      ],
+      "declaredBytes": 1929454,
+      "status": "available",
+      "bytes": 1929454,
+      "sha256": "d0505480ad1a2a114b50b359bcf189ed9661d054cd205f84eb93ce6f6d5d23e5",
+      "optimized": [
+        {
+          "src": "/assets/images/case-juridik-480.webp",
+          "bytes": 29838,
+          "sha256": "fa429844b2437003c7641f8fdcb516d12f4ac7a6e31de2ce4b80f9fb171e8061",
+          "width": 480,
+          "height": 320
+        },
+        {
+          "src": "/assets/images/case-juridik-768.webp",
+          "bytes": 59048,
+          "sha256": "2ec25f9fb2871a2125602fbbe928496d9c48f06705e5dc410909a50617ec4a50",
+          "width": 768,
+          "height": 512
+        },
+        {
+          "src": "/assets/images/case-juridik-1200.webp",
+          "bytes": 106128,
+          "sha256": "cc1a0988c08041c92f37a4819274eb59759f7114cd53d5b2572c4955ff35ea8c",
+          "width": 1200,
+          "height": 800
+        }
+      ],
+      "downloadedFrom": "https://daladana.lovable.app/__l5e/assets-v1/3c5f76f4-7c93-49c8-846b-266b59978b85/case-juridik.png"
+    },
+    {
+      "id": "case-kaffehuset.png",
+      "sourceManifest": "src/assets/case-kaffehuset.png.asset.json",
+      "originalUrl": "/__l5e/assets-v1/8eb4f7de-fe70-4240-9935-0535fd3ae60a/case-kaffehuset.png",
+      "requestedUrls": [
+        "https://daladana.lovable.app/__l5e/assets-v1/8eb4f7de-fe70-4240-9935-0535fd3ae60a/case-kaffehuset.png",
+        "https://webarea-rediscovered.lovable.app/__l5e/assets-v1/8eb4f7de-fe70-4240-9935-0535fd3ae60a/case-kaffehuset.png"
+      ],
+      "localPath": "/assets/originals/case-kaffehuset.png",
+      "type": "image/png",
+      "usage": [
+        "src/content/site.ts",
+        "src/routes/index.tsx",
+        "src/routes/kundcase.tsx"
+      ],
+      "declaredBytes": 2143375,
+      "status": "available",
+      "bytes": 2143375,
+      "sha256": "3953c0f190dd5e71ee9c2be00d533247f1812a0b71b5b626b54c72c0cb9e383c",
+      "optimized": [
+        {
+          "src": "/assets/images/case-kaffehuset-480.webp",
+          "bytes": 33296,
+          "sha256": "d65c78160bec69c571d1c61d32b51cc84101b18b0dd425a661eec493aa0a631e",
+          "width": 480,
+          "height": 320
+        },
+        {
+          "src": "/assets/images/case-kaffehuset-768.webp",
+          "bytes": 63226,
+          "sha256": "efa5d730d659ed5de206df130a784687f6cf96141166d64f8e79fbeb6d5abf46",
+          "width": 768,
+          "height": 512
+        },
+        {
+          "src": "/assets/images/case-kaffehuset-1200.webp",
+          "bytes": 112280,
+          "sha256": "72ea4f6fb6b4d9551cec174a8c486dd18be3ec3d4e338cd124c884334f85442f",
+          "width": 1200,
+          "height": 800
+        }
+      ],
+      "downloadedFrom": "https://daladana.lovable.app/__l5e/assets-v1/8eb4f7de-fe70-4240-9935-0535fd3ae60a/case-kaffehuset.png"
+    },
+    {
+      "id": "case-rozans.png",
+      "sourceManifest": "src/assets/case-rozans.png.asset.json",
+      "originalUrl": "/__l5e/assets-v1/8966c742-c6a2-49c0-b3b8-91da78cd9247/case-rozans.png",
+      "requestedUrls": [
+        "https://daladana.lovable.app/__l5e/assets-v1/8966c742-c6a2-49c0-b3b8-91da78cd9247/case-rozans.png",
+        "https://webarea-rediscovered.lovable.app/__l5e/assets-v1/8966c742-c6a2-49c0-b3b8-91da78cd9247/case-rozans.png"
+      ],
+      "localPath": "/assets/originals/case-rozans.png",
+      "type": "image/png",
+      "usage": [
+        "src/content/site.ts",
+        "src/routes/index.tsx",
+        "src/routes/kundcase.tsx"
+      ],
+      "declaredBytes": 1935765,
+      "status": "available",
+      "bytes": 1935765,
+      "sha256": "e3118185a362d6837c3c2ce8b84bd9a1f139ae7deb71987f7f0fb78261e4092d",
+      "optimized": [
+        {
+          "src": "/assets/images/case-rozans-480.webp",
+          "bytes": 28338,
+          "sha256": "5ffba0260d15ed7c591c9e4dcc66192e30036f56bedc12e9966676e2da988bf6",
+          "width": 480,
+          "height": 320
+        },
+        {
+          "src": "/assets/images/case-rozans-768.webp",
+          "bytes": 52758,
+          "sha256": "23cca47673eb54d5d4e6f830165ba4b47cca7ced957f08a9ea7f24c4e9be9a13",
+          "width": 768,
+          "height": 512
+        },
+        {
+          "src": "/assets/images/case-rozans-1200.webp",
+          "bytes": 94812,
+          "sha256": "bd6cb7c92fbdcf28331c24c50085f9cd582861617302b3a3885e750e0eddab25",
+          "width": 1200,
+          "height": 800
+        }
+      ],
+      "downloadedFrom": "https://daladana.lovable.app/__l5e/assets-v1/8966c742-c6a2-49c0-b3b8-91da78cd9247/case-rozans.png"
+    },
+    {
+      "id": "dalanord-hero.webm",
+      "sourceManifest": "src/assets/dalanord-hero.webm.asset.json",
+      "originalUrl": "/__l5e/assets-v1/f35f0544-b06f-407a-87f0-d79bc5803264/dalanord-hero.webm",
+      "requestedUrls": [
+        "https://daladana.lovable.app/__l5e/assets-v1/f35f0544-b06f-407a-87f0-d79bc5803264/dalanord-hero.webm",
+        "https://webarea-rediscovered.lovable.app/__l5e/assets-v1/f35f0544-b06f-407a-87f0-d79bc5803264/dalanord-hero.webm"
+      ],
+      "localPath": "/assets/video/dalanord-hero.webm",
+      "type": "video/webm",
+      "usage": [
+        "src/components/site/HeroMedia.tsx (mobile, tablet and desktop video; poster fallback extracted from this source)"
+      ],
+      "declaredBytes": 9785843,
+      "status": "available",
+      "bytes": 1887411,
+      "sha256": "7aa1b5a999a6ae52d667e362221f181507d591591c8c62ea520725c5db9fe52e",
+      "sourceBytes": 9785843,
+      "sourceSha256": "d61d5c34db2352e7b185e11720fbbdae2863eff8619692302eeed061a012ea5d",
+      "optimized": [
+        {
+          "src": "/assets/images/hero-poster-960.webp",
+          "bytes": 108606,
+          "sha256": "5a67e71f3233c607b9a57d391a072ee4e19e8f0d3045591fbd9eee30b1cf9bb6",
+          "width": 960,
+          "height": 540
+        },
+        {
+          "src": "/assets/images/hero-poster-1280.webp",
+          "bytes": 149396,
+          "sha256": "b791e60572012cc9a7b8f79ccf4c675a3bfbacb97ff88392a5e4782dacfd9e86",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "src": "/assets/images/hero-mobile-768.webp",
+          "bytes": 77550,
+          "sha256": "9d2c620ea5e710af80c96ea4a81748a7b1ab9b67d8cb4bbfd9a36149be6c483b",
+          "width": 768,
+          "height": 432
+        }
+      ],
+      "downloadedFrom": "https://daladana.lovable.app/__l5e/assets-v1/f35f0544-b06f-407a-87f0-d79bc5803264/dalanord-hero.webm",
+      "processing": {
+        "excerptSeconds": 16,
+        "maximumWidth": 960,
+        "fps": 20,
+        "codec": "VP9",
+        "crf": 44,
+        "singleFile": true,
+        "note": "Only the optimized runtime video is retained locally; source provenance remains in the inventory."
+      }
+    },
+    {
+      "id": "dalarna-hero.jpg",
+      "sourceManifest": "src/assets/dalarna-hero.jpg.asset.json",
+      "originalUrl": "/__l5e/assets-v1/9789bd50-03ac-4494-8246-22fe821101c3/dalarna-hero.jpg",
+      "requestedUrls": [
+        "https://daladana.lovable.app/__l5e/assets-v1/9789bd50-03ac-4494-8246-22fe821101c3/dalarna-hero.jpg",
+        "https://webarea-rediscovered.lovable.app/__l5e/assets-v1/9789bd50-03ac-4494-8246-22fe821101c3/dalarna-hero.jpg"
+      ],
+      "localPath": "/assets/originals/dalarna-hero.jpg",
+      "type": "image/png",
+      "usage": [],
+      "usageNote": "Removed because the current site has no runtime reference to this asset; provenance is retained.",
+      "declaredBytes": 2419643,
+      "status": "removed-unused",
+      "bytes": 2419643,
+      "sha256": "bb5a3efbb321da0d891ffc4b3c49b876489f042a8e3d0f29e0b74faf7fb07987",
+      "optimized": [
+        {
+          "src": "/assets/images/dalarna-hero-768.webp",
+          "bytes": 138756,
+          "sha256": "01b3582f1d9b6ab8a60cdfb11bde2a01b47e654ad8a633776e69db62c1ec287e",
+          "width": 768,
+          "height": 1024
+        },
+        {
+          "src": "/assets/images/dalarna-hero-1086.webp",
+          "bytes": 220982,
+          "sha256": "d0ee59ce909868c8ce02e8904a6f49263cc8841b76f82ad57795e86a191ba669",
+          "width": 1086,
+          "height": 1448
+        }
+      ],
+      "downloadedFrom": "https://daladana.lovable.app/__l5e/assets-v1/9789bd50-03ac-4494-8246-22fe821101c3/dalarna-hero.jpg"
+    },
+    {
+      "id": "dalarna-winter-desktop.jpg",
+      "sourceManifest": "src/assets/dalarna-winter-desktop.jpg.asset.json",
+      "originalUrl": "/__l5e/assets-v1/21fceec8-7409-4cd6-947c-df318ddfb1a3/dalarna-winter-desktop.jpg",
+      "requestedUrls": [
+        "https://daladana.lovable.app/__l5e/assets-v1/21fceec8-7409-4cd6-947c-df318ddfb1a3/dalarna-winter-desktop.jpg",
+        "https://webarea-rediscovered.lovable.app/__l5e/assets-v1/21fceec8-7409-4cd6-947c-df318ddfb1a3/dalarna-winter-desktop.jpg"
+      ],
+      "localPath": "/assets/originals/dalarna-winter-desktop.jpg",
+      "type": "image/jpeg",
+      "usage": [
+        "src/routes/om-oss.tsx"
+      ],
+      "declaredBytes": 133200,
+      "status": "available",
+      "bytes": 133200,
+      "sha256": "c15d78be673198f4775f55b418209e4d9e9c6f03757d2cc1297590a6e66a1220",
+      "optimized": [
+        {
+          "src": "/assets/images/dalarna-winter-desktop-960.webp",
+          "bytes": 30216,
+          "sha256": "fb9487e4a482c37243b8b67e50e353b5e49eeb4451e9aee2846bcb7f38780adc",
+          "width": 960,
+          "height": 536
+        },
+        {
+          "src": "/assets/images/dalarna-winter-desktop-1440.webp",
+          "bytes": 51342,
+          "sha256": "48c3eda8ed2f2bfc642e2e50f9b02f56b248ea59fedbef080ef2a928444748bd",
+          "width": 1440,
+          "height": 804
+        },
+        {
+          "src": "/assets/images/dalarna-winter-desktop-1920.webp",
+          "bytes": 77768,
+          "sha256": "7e053eef2a1ce34598d826853ef2ab77edd6d598c5723d9c1096401dadb401f1",
+          "width": 1920,
+          "height": 1072
+        }
+      ],
+      "downloadedFrom": "https://daladana.lovable.app/__l5e/assets-v1/21fceec8-7409-4cd6-947c-df318ddfb1a3/dalarna-winter-desktop.jpg"
+    },
+    {
+      "id": "dalarna-winter-mobile.png",
+      "sourceManifest": "src/assets/dalarna-winter-mobile.png.asset.json",
+      "originalUrl": "/__l5e/assets-v1/bb725758-584b-4ca6-a570-560a9fd9c50b/dalarna-winter-mobile.png",
+      "requestedUrls": [
+        "https://daladana.lovable.app/__l5e/assets-v1/bb725758-584b-4ca6-a570-560a9fd9c50b/dalarna-winter-mobile.png",
+        "https://webarea-rediscovered.lovable.app/__l5e/assets-v1/bb725758-584b-4ca6-a570-560a9fd9c50b/dalarna-winter-mobile.png"
+      ],
+      "localPath": "/assets/originals/dalarna-winter-mobile.png",
+      "type": "image/png",
+      "usage": [
+        "src/routes/om-oss.tsx"
+      ],
+      "declaredBytes": 2162324,
+      "status": "available",
+      "bytes": 2162324,
+      "sha256": "c934d934416a35302f6b526fd316abb50c9aad03fb889cc53c7f071850a09614",
+      "optimized": [
+        {
+          "src": "/assets/images/dalarna-winter-mobile-480.webp",
+          "bytes": 15898,
+          "sha256": "d5da8808d3bf5b4eae794d04b8ed50fc465d316d415428d8f60a5e047a28f62b",
+          "width": 480,
+          "height": 598
+        },
+        {
+          "src": "/assets/images/dalarna-winter-mobile-768.webp",
+          "bytes": 31634,
+          "sha256": "52e908a1fc188fc3d807209d9bc002531f89e7f059a965d5f4997c70afcfa23a",
+          "width": 768,
+          "height": 957
+        },
+        {
+          "src": "/assets/images/dalarna-winter-mobile-960.webp",
+          "bytes": 44346,
+          "sha256": "74a056264d917c145cc19173789baed7bc101fa1654e0a721595535ae3a38126",
+          "width": 960,
+          "height": 1196
+        }
+      ],
+      "downloadedFrom": "https://daladana.lovable.app/__l5e/assets-v1/bb725758-584b-4ca6-a570-560a9fd9c50b/dalarna-winter-mobile.png"
+    },
+    {
+      "id": "samir-ahmad.png",
+      "sourceManifest": "src/assets/samir-ahmad.png.asset.json",
+      "originalUrl": "/__l5e/assets-v1/2e284a30-f70b-4ae5-a7d0-03cd59edbf1f/samir-ahmad.png",
+      "requestedUrls": [
+        "https://daladana.lovable.app/__l5e/assets-v1/2e284a30-f70b-4ae5-a7d0-03cd59edbf1f/samir-ahmad.png",
+        "https://webarea-rediscovered.lovable.app/__l5e/assets-v1/2e284a30-f70b-4ae5-a7d0-03cd59edbf1f/samir-ahmad.png"
+      ],
+      "localPath": "/assets/originals/samir-ahmad.png",
+      "type": "image/png",
+      "usage": [
+        "src/routes/om-oss.tsx"
+      ],
+      "declaredBytes": 453483,
+      "status": "available",
+      "bytes": 453483,
+      "sha256": "d0d095fa40c8a191cf56d3cdc3f57a5bb739d8570e7d8469707f702a65c8cbd3",
+      "optimized": [
+        {
+          "src": "/assets/images/samir-ahmad-480.webp",
+          "bytes": 15686,
+          "sha256": "138317b3ca2994398610a9edd21e36f48d63bcb75df0a575708dae262e0cc516",
+          "width": 480,
+          "height": 361
+        },
+        {
+          "src": "/assets/images/samir-ahmad-677.webp",
+          "bytes": 23672,
+          "sha256": "e520070f8296c20cad5ef938e4ea47b1d8f1ad9af07135a08db77353abfd5103",
+          "width": 677,
+          "height": 509
+        }
+      ],
+      "downloadedFrom": "https://daladana.lovable.app/__l5e/assets-v1/2e284a30-f70b-4ae5-a7d0-03cd59edbf1f/samir-ahmad.png"
+    },
+    {
+      "id": "synord-logo.png",
+      "sourceManifest": "src/assets/synord-logo.png.asset.json",
+      "originalUrl": "/__l5e/assets-v1/b08f5fa9-bf2c-461c-a141-e28f7120cdc9/synord-logo.png",
+      "requestedUrls": [
+        "https://daladana.lovable.app/__l5e/assets-v1/b08f5fa9-bf2c-461c-a141-e28f7120cdc9/synord-logo.png",
+        "https://webarea-rediscovered.lovable.app/__l5e/assets-v1/b08f5fa9-bf2c-461c-a141-e28f7120cdc9/synord-logo.png"
+      ],
+      "localPath": "/assets/originals/synord-logo.png",
+      "type": "image/png",
+      "usage": [],
+      "usageNote": "Removed because the current site has no runtime reference to this asset; provenance is retained.",
+      "declaredBytes": 571111,
+      "status": "removed-unused",
+      "bytes": 571111,
+      "sha256": "56f988576ee0f4c04c806c9a4eb54286add2fd6cbe202ae6472168f473fdb0f3",
+      "optimized": [
+        {
+          "src": "/assets/images/synord-logo-320.webp",
+          "bytes": 32772,
+          "sha256": "ac50639626f647fef4740841de60b60954b88fe3df95c54f9cb920fd4d2f930b",
+          "width": 320,
+          "height": 329
+        },
+        {
+          "src": "/assets/images/synord-logo-640.webp",
+          "bytes": 73688,
+          "sha256": "b536fdc246317082bde8c5490f1df258c01eb92f586f06d464745e726f02cb33",
+          "width": 640,
+          "height": 657
+        },
+        {
+          "src": "/assets/images/synord-logo-861.webp",
+          "bytes": 79036,
+          "sha256": "7f4c22a4e47607446cdbd6856e575ceaf120733778978c279df13a4cc799d42c",
+          "width": 861,
+          "height": 884
+        }
+      ],
+      "downloadedFrom": "https://daladana.lovable.app/__l5e/assets-v1/b08f5fa9-bf2c-461c-a141-e28f7120cdc9/synord-logo.png"
+    },
+    {
+      "id": "synord-mark.png",
+      "sourceManifest": "src/assets/synord-mark.png.asset.json",
+      "originalUrl": "/__l5e/assets-v1/d9c4f11c-42f5-4978-84b4-96caed3dac27/synord-mark.png",
+      "requestedUrls": [
+        "https://daladana.lovable.app/__l5e/assets-v1/d9c4f11c-42f5-4978-84b4-96caed3dac27/synord-mark.png",
+        "https://webarea-rediscovered.lovable.app/__l5e/assets-v1/d9c4f11c-42f5-4978-84b4-96caed3dac27/synord-mark.png"
+      ],
+      "localPath": "/assets/originals/synord-mark.png",
+      "type": "image/png",
+      "usage": [
+        "src/components/site/Header.tsx",
+        "src/components/site/Footer.tsx",
+        "Local social-share composition"
+      ],
+      "declaredBytes": 193802,
+      "status": "source-remote",
+      "bytes": 193802,
+      "sha256": "a77eccebe5c392c4465701128b5594ebd2c24cac7cfcfe77663c1de39037d42e",
+      "optimized": [
+        {
+          "src": "/assets/images/synord-mark-64.webp",
+          "bytes": 3746,
+          "sha256": "6e05b6fca4bc344a8535676fe771c7883664a2b233773f9150fc52cdcc444843",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "src": "/assets/images/synord-mark-128.webp",
+          "bytes": 8558,
+          "sha256": "1381ab59aa3eb7e2b3e8045b47d2534168feb21a997be2b630de913c5575fd6f",
+          "width": 128,
+          "height": 128
+        },
+        {
+          "src": "/assets/images/synord-mark-256.webp",
+          "bytes": 18702,
+          "sha256": "163a1bd156d857fe29f6de966606f65e83222de239d16433f10f2af38dcfabcd",
+          "width": 256,
+          "height": 256
+        }
+      ],
+      "downloadedFrom": "https://daladana.lovable.app/__l5e/assets-v1/d9c4f11c-42f5-4978-84b4-96caed3dac27/synord-mark.png",
+      "sourceBytes": 193802,
+      "sourceSha256": "a77eccebe5c392c4465701128b5594ebd2c24cac7cfcfe77663c1de39037d42e",
+      "usageNote": "The source is re-imported only for optimization; runtime uses the committed WebP variants."
+    },
+    {
+      "id": "technology/csharp.svg",
+      "sourceManifest": "src/assets/technology/csharp.svg.asset.json",
+      "originalUrl": "/__l5e/assets-v1/e0fd50f1-6de1-4354-b07f-04278d81b36d/tech-csharp.svg",
+      "requestedUrls": [
+        "https://daladana.lovable.app/__l5e/assets-v1/e0fd50f1-6de1-4354-b07f-04278d81b36d/tech-csharp.svg",
+        "https://webarea-rediscovered.lovable.app/__l5e/assets-v1/e0fd50f1-6de1-4354-b07f-04278d81b36d/tech-csharp.svg"
+      ],
+      "localPath": "/assets/originals/technology/csharp.svg",
+      "type": "image/svg+xml",
+      "usage": [
+        "src/lib/assets.ts (technology inventory; first ten displayed by TechnologyMarquee)"
+      ],
+      "declaredBytes": 851,
+      "status": "available",
+      "bytes": 851,
+      "sha256": "7093478d0888e22a224b6fa832da6c9ffd14c433de8bd14aab0c1cb50925f3ee",
+      "downloadedFrom": "https://daladana.lovable.app/__l5e/assets-v1/e0fd50f1-6de1-4354-b07f-04278d81b36d/tech-csharp.svg"
+    },
+    {
+      "id": "technology/dotnet.svg",
+      "sourceManifest": "src/assets/technology/dotnet.svg.asset.json",
+      "originalUrl": "/__l5e/assets-v1/a420158f-c63f-42ec-9c50-62e1c9c6f981/tech-dotnet.svg",
+      "requestedUrls": [
+        "https://daladana.lovable.app/__l5e/assets-v1/a420158f-c63f-42ec-9c50-62e1c9c6f981/tech-dotnet.svg",
+        "https://webarea-rediscovered.lovable.app/__l5e/assets-v1/a420158f-c63f-42ec-9c50-62e1c9c6f981/tech-dotnet.svg"
+      ],
+      "localPath": "/assets/originals/technology/dotnet.svg",
+      "type": "image/svg+xml",
+      "usage": [
+        "src/lib/assets.ts (technology inventory; first ten displayed by TechnologyMarquee)"
+      ],
+      "declaredBytes": 534,
+      "status": "available",
+      "bytes": 534,
+      "sha256": "3b7e1243fb2389116b0a5237c9f07e82f6d2eb18ee40bd232f28abccd7956993",
+      "downloadedFrom": "https://daladana.lovable.app/__l5e/assets-v1/a420158f-c63f-42ec-9c50-62e1c9c6f981/tech-dotnet.svg"
+    },
+    {
+      "id": "technology/expo.svg",
+      "sourceManifest": "src/assets/technology/expo.svg.asset.json",
+      "originalUrl": "/__l5e/assets-v1/74698527-2ed0-41b2-8f10-bad7dc25d213/tech-expo.svg",
+      "requestedUrls": [
+        "https://daladana.lovable.app/__l5e/assets-v1/74698527-2ed0-41b2-8f10-bad7dc25d213/tech-expo.svg",
+        "https://webarea-rediscovered.lovable.app/__l5e/assets-v1/74698527-2ed0-41b2-8f10-bad7dc25d213/tech-expo.svg"
+      ],
+      "localPath": "/assets/originals/technology/expo.svg",
+      "type": "image/svg+xml",
+      "usage": [
+        "src/lib/assets.ts (technology inventory; first ten displayed by TechnologyMarquee)"
+      ],
+      "declaredBytes": 451,
+      "status": "available",
+      "bytes": 451,
+      "sha256": "fe31b54a038878735a20ff497c6b250221707047785a324c4f7ef83228f40c6a",
+      "downloadedFrom": "https://daladana.lovable.app/__l5e/assets-v1/74698527-2ed0-41b2-8f10-bad7dc25d213/tech-expo.svg"
+    },
+    {
+      "id": "technology/flask.svg",
+      "sourceManifest": "src/assets/technology/flask.svg.asset.json",
+      "originalUrl": "/__l5e/assets-v1/f4159734-0867-46d7-9391-96a0595fa26e/tech-flask.svg",
+      "requestedUrls": [
+        "https://daladana.lovable.app/__l5e/assets-v1/f4159734-0867-46d7-9391-96a0595fa26e/tech-flask.svg",
+        "https://webarea-rediscovered.lovable.app/__l5e/assets-v1/f4159734-0867-46d7-9391-96a0595fa26e/tech-flask.svg"
+      ],
+      "localPath": "/assets/originals/technology/flask.svg",
+      "type": "image/svg+xml",
+      "usage": [
+        "src/lib/assets.ts (technology inventory; first ten displayed by TechnologyMarquee)"
+      ],
+      "declaredBytes": 851,
+      "status": "available",
+      "bytes": 851,
+      "sha256": "645c60732f945289a00d0640d8d682b7160a44b21b527633cab72175e919aeab",
+      "downloadedFrom": "https://daladana.lovable.app/__l5e/assets-v1/f4159734-0867-46d7-9391-96a0595fa26e/tech-flask.svg"
+    },
+    {
+      "id": "technology/html5.svg",
+      "sourceManifest": "src/assets/technology/html5.svg.asset.json",
+      "originalUrl": "/__l5e/assets-v1/893ef393-d98b-4996-b16f-27581808e7e7/tech-html5.svg",
+      "requestedUrls": [
+        "https://daladana.lovable.app/__l5e/assets-v1/893ef393-d98b-4996-b16f-27581808e7e7/tech-html5.svg",
+        "https://webarea-rediscovered.lovable.app/__l5e/assets-v1/893ef393-d98b-4996-b16f-27581808e7e7/tech-html5.svg"
+      ],
+      "localPath": "/assets/originals/technology/html5.svg",
+      "type": "image/svg+xml",
+      "usage": [
+        "src/lib/assets.ts (technology inventory; first ten displayed by TechnologyMarquee)"
+      ],
+      "declaredBytes": 327,
+      "status": "available",
+      "bytes": 327,
+      "sha256": "dfd65fdd7e4f997c6b163e48793de5ad18c4c99e191807a61752ea702f123d1d",
+      "downloadedFrom": "https://daladana.lovable.app/__l5e/assets-v1/893ef393-d98b-4996-b16f-27581808e7e7/tech-html5.svg"
+    },
+    {
+      "id": "technology/javascript.svg",
+      "sourceManifest": "src/assets/technology/javascript.svg.asset.json",
+      "originalUrl": "/__l5e/assets-v1/22cd2f13-fa92-4160-b7f2-64de81db82aa/tech-javascript.svg",
+      "requestedUrls": [
+        "https://daladana.lovable.app/__l5e/assets-v1/22cd2f13-fa92-4160-b7f2-64de81db82aa/tech-javascript.svg",
+        "https://webarea-rediscovered.lovable.app/__l5e/assets-v1/22cd2f13-fa92-4160-b7f2-64de81db82aa/tech-javascript.svg"
+      ],
+      "localPath": "/assets/originals/technology/javascript.svg",
+      "type": "image/svg+xml",
+      "usage": [
+        "src/lib/assets.ts (technology inventory; first ten displayed by TechnologyMarquee)"
+      ],
+      "declaredBytes": 974,
+      "status": "available",
+      "bytes": 974,
+      "sha256": "c9be35a7a861ebe80ae4ee706d05004b99ee59fc63db69da6dcc10776718434b",
+      "downloadedFrom": "https://daladana.lovable.app/__l5e/assets-v1/22cd2f13-fa92-4160-b7f2-64de81db82aa/tech-javascript.svg"
+    },
+    {
+      "id": "technology/klarna.svg",
+      "sourceManifest": "src/assets/technology/klarna.svg.asset.json",
+      "originalUrl": "/__l5e/assets-v1/8b115edf-989a-40c1-9a46-34c807c3a4dc/tech-klarna.svg",
+      "requestedUrls": [
+        "https://daladana.lovable.app/__l5e/assets-v1/8b115edf-989a-40c1-9a46-34c807c3a4dc/tech-klarna.svg",
+        "https://webarea-rediscovered.lovable.app/__l5e/assets-v1/8b115edf-989a-40c1-9a46-34c807c3a4dc/tech-klarna.svg"
+      ],
+      "localPath": "/assets/originals/technology/klarna.svg",
+      "type": "image/svg+xml",
+      "usage": [
+        "src/lib/assets.ts (technology inventory; first ten displayed by TechnologyMarquee)"
+      ],
+      "declaredBytes": 314,
+      "status": "available",
+      "bytes": 314,
+      "sha256": "1ae8a83bce48bb43d8eeb3e478e74535004cde6f9d4a06868c819f417b1856db",
+      "downloadedFrom": "https://daladana.lovable.app/__l5e/assets-v1/8b115edf-989a-40c1-9a46-34c807c3a4dc/tech-klarna.svg"
+    },
+    {
+      "id": "technology/linux.svg",
+      "sourceManifest": "src/assets/technology/linux.svg.asset.json",
+      "originalUrl": "/__l5e/assets-v1/f9f9b39f-87dc-4e67-a084-36d07fc22c5f/tech-linux.svg",
+      "requestedUrls": [
+        "https://daladana.lovable.app/__l5e/assets-v1/f9f9b39f-87dc-4e67-a084-36d07fc22c5f/tech-linux.svg",
+        "https://webarea-rediscovered.lovable.app/__l5e/assets-v1/f9f9b39f-87dc-4e67-a084-36d07fc22c5f/tech-linux.svg"
+      ],
+      "localPath": "/assets/originals/technology/linux.svg",
+      "type": "image/svg+xml",
+      "usage": [
+        "src/lib/assets.ts (technology inventory; first ten displayed by TechnologyMarquee)"
+      ],
+      "declaredBytes": 5463,
+      "status": "available",
+      "bytes": 5463,
+      "sha256": "7e55f2779ae11a83c9dad2d0414a65d8ca7867d0716ce58bfe41ed299ae1447f",
+      "downloadedFrom": "https://daladana.lovable.app/__l5e/assets-v1/f9f9b39f-87dc-4e67-a084-36d07fc22c5f/tech-linux.svg"
+    },
+    {
+      "id": "technology/loopia.svg",
+      "sourceManifest": "src/assets/technology/loopia.svg.asset.json",
+      "originalUrl": "/__l5e/assets-v1/17aa684e-8c29-46c6-aab7-f74e65fabd09/tech-loopia.svg",
+      "requestedUrls": [
+        "https://daladana.lovable.app/__l5e/assets-v1/17aa684e-8c29-46c6-aab7-f74e65fabd09/tech-loopia.svg",
+        "https://webarea-rediscovered.lovable.app/__l5e/assets-v1/17aa684e-8c29-46c6-aab7-f74e65fabd09/tech-loopia.svg"
+      ],
+      "localPath": "/assets/originals/technology/loopia.svg",
+      "type": "image/svg+xml",
+      "usage": [
+        "src/lib/assets.ts (technology inventory; first ten displayed by TechnologyMarquee)"
+      ],
+      "declaredBytes": 6267,
+      "status": "available",
+      "bytes": 6267,
+      "sha256": "8b19a4ee0d8bfdf6155829733985cbe8392d1b3beaf6afb9166c10c9e69af863",
+      "downloadedFrom": "https://daladana.lovable.app/__l5e/assets-v1/17aa684e-8c29-46c6-aab7-f74e65fabd09/tech-loopia.svg"
+    },
+    {
+      "id": "technology/matomo.svg",
+      "sourceManifest": "src/assets/technology/matomo.svg.asset.json",
+      "originalUrl": "/__l5e/assets-v1/a9400cbd-d3ef-4043-82c7-1b4f0cc17c6e/tech-matomo.svg",
+      "requestedUrls": [
+        "https://daladana.lovable.app/__l5e/assets-v1/a9400cbd-d3ef-4043-82c7-1b4f0cc17c6e/tech-matomo.svg",
+        "https://webarea-rediscovered.lovable.app/__l5e/assets-v1/a9400cbd-d3ef-4043-82c7-1b4f0cc17c6e/tech-matomo.svg"
+      ],
+      "localPath": "/assets/originals/technology/matomo.svg",
+      "type": "image/svg+xml",
+      "usage": [
+        "src/lib/assets.ts (technology inventory; first ten displayed by TechnologyMarquee)"
+      ],
+      "declaredBytes": 1062,
+      "status": "available",
+      "bytes": 1062,
+      "sha256": "e4f077f3e41635bdec06c659751799acdf88d4388367ecf129eefdac0296688d",
+      "downloadedFrom": "https://daladana.lovable.app/__l5e/assets-v1/a9400cbd-d3ef-4043-82c7-1b4f0cc17c6e/tech-matomo.svg"
+    },
+    {
+      "id": "technology/openai.svg",
+      "sourceManifest": "src/assets/technology/openai.svg.asset.json",
+      "originalUrl": "/__l5e/assets-v1/1d10403c-0205-4bfb-9243-5aca40096525/tech-openai.svg",
+      "requestedUrls": [
+        "https://daladana.lovable.app/__l5e/assets-v1/1d10403c-0205-4bfb-9243-5aca40096525/tech-openai.svg",
+        "https://webarea-rediscovered.lovable.app/__l5e/assets-v1/1d10403c-0205-4bfb-9243-5aca40096525/tech-openai.svg"
+      ],
+      "localPath": "/assets/originals/technology/openai.svg",
+      "type": "image/svg+xml",
+      "usage": [
+        "src/lib/assets.ts (technology inventory; first ten displayed by TechnologyMarquee)"
+      ],
+      "declaredBytes": 1570,
+      "status": "available",
+      "bytes": 1570,
+      "sha256": "2b4a04ddc2395b20d168694d3850ce2050a702c4a0cdeb4d8b31b9a970481a8c",
+      "downloadedFrom": "https://daladana.lovable.app/__l5e/assets-v1/1d10403c-0205-4bfb-9243-5aca40096525/tech-openai.svg"
+    },
+    {
+      "id": "technology/paypal.svg",
+      "sourceManifest": "src/assets/technology/paypal.svg.asset.json",
+      "originalUrl": "/__l5e/assets-v1/f203a718-7ebb-4e55-890c-146ab2939a8a/tech-paypal.svg",
+      "requestedUrls": [
+        "https://daladana.lovable.app/__l5e/assets-v1/f203a718-7ebb-4e55-890c-146ab2939a8a/tech-paypal.svg",
+        "https://webarea-rediscovered.lovable.app/__l5e/assets-v1/f203a718-7ebb-4e55-890c-146ab2939a8a/tech-paypal.svg"
+      ],
+      "localPath": "/assets/originals/technology/paypal.svg",
+      "type": "image/svg+xml",
+      "usage": [
+        "src/lib/assets.ts (technology inventory; first ten displayed by TechnologyMarquee)"
+      ],
+      "declaredBytes": 452,
+      "status": "available",
+      "bytes": 452,
+      "sha256": "e8ea6928d3386f81dc6d4c1f58b48e7a29d29bb578b2e3dd808638bd97c63d33",
+      "downloadedFrom": "https://daladana.lovable.app/__l5e/assets-v1/f203a718-7ebb-4e55-890c-146ab2939a8a/tech-paypal.svg"
+    },
+    {
+      "id": "technology/php.svg",
+      "sourceManifest": "src/assets/technology/php.svg.asset.json",
+      "originalUrl": "/__l5e/assets-v1/6411839a-8458-4fad-928f-eaa209ce68c0/tech-php.svg",
+      "requestedUrls": [
+        "https://daladana.lovable.app/__l5e/assets-v1/6411839a-8458-4fad-928f-eaa209ce68c0/tech-php.svg",
+        "https://webarea-rediscovered.lovable.app/__l5e/assets-v1/6411839a-8458-4fad-928f-eaa209ce68c0/tech-php.svg"
+      ],
+      "localPath": "/assets/originals/technology/php.svg",
+      "type": "image/svg+xml",
+      "usage": [
+        "src/lib/assets.ts (technology inventory; first ten displayed by TechnologyMarquee)"
+      ],
+      "declaredBytes": 1127,
+      "status": "available",
+      "bytes": 1127,
+      "sha256": "cd1beaa0dde7e765b5d2cbae786c1f6db967f72073eb7b9f9bbc63da55b9d0f6",
+      "downloadedFrom": "https://daladana.lovable.app/__l5e/assets-v1/6411839a-8458-4fad-928f-eaa209ce68c0/tech-php.svg"
+    },
+    {
+      "id": "technology/python.svg",
+      "sourceManifest": "src/assets/technology/python.svg.asset.json",
+      "originalUrl": "/__l5e/assets-v1/223e94f6-4142-46f3-a89f-881e2377ba5b/tech-python.svg",
+      "requestedUrls": [
+        "https://daladana.lovable.app/__l5e/assets-v1/223e94f6-4142-46f3-a89f-881e2377ba5b/tech-python.svg",
+        "https://webarea-rediscovered.lovable.app/__l5e/assets-v1/223e94f6-4142-46f3-a89f-881e2377ba5b/tech-python.svg"
+      ],
+      "localPath": "/assets/originals/technology/python.svg",
+      "type": "image/svg+xml",
+      "usage": [
+        "src/lib/assets.ts (technology inventory; first ten displayed by TechnologyMarquee)"
+      ],
+      "declaredBytes": 1518,
+      "status": "available",
+      "bytes": 1518,
+      "sha256": "ad9468e1c4903f73ae7eebfbe980f0f727a10db695be3d914e7d8bd25356a862",
+      "downloadedFrom": "https://daladana.lovable.app/__l5e/assets-v1/223e94f6-4142-46f3-a89f-881e2377ba5b/tech-python.svg"
+    },
+    {
+      "id": "technology/react.svg",
+      "sourceManifest": "src/assets/technology/react.svg.asset.json",
+      "originalUrl": "/__l5e/assets-v1/8fa387b3-a308-4d6a-86ec-81770ee41509/tech-react.svg",
+      "requestedUrls": [
+        "https://daladana.lovable.app/__l5e/assets-v1/8fa387b3-a308-4d6a-86ec-81770ee41509/tech-react.svg",
+        "https://webarea-rediscovered.lovable.app/__l5e/assets-v1/8fa387b3-a308-4d6a-86ec-81770ee41509/tech-react.svg"
+      ],
+      "localPath": "/assets/originals/technology/react.svg",
+      "type": "image/svg+xml",
+      "usage": [
+        "src/lib/assets.ts (technology inventory; first ten displayed by TechnologyMarquee)"
+      ],
+      "declaredBytes": 2926,
+      "status": "available",
+      "bytes": 2926,
+      "sha256": "ab9136a1a4a8be72ac6743e1bdd1912d878bd68d57787ea7a6c6838e3b23c01c",
+      "downloadedFrom": "https://daladana.lovable.app/__l5e/assets-v1/8fa387b3-a308-4d6a-86ec-81770ee41509/tech-react.svg"
+    },
+    {
+      "id": "technology/stripe.svg",
+      "sourceManifest": "src/assets/technology/stripe.svg.asset.json",
+      "originalUrl": "/__l5e/assets-v1/f5295263-f5a7-49e9-af42-6b1454ddc2da/tech-stripe.svg",
+      "requestedUrls": [
+        "https://daladana.lovable.app/__l5e/assets-v1/f5295263-f5a7-49e9-af42-6b1454ddc2da/tech-stripe.svg",
+        "https://webarea-rediscovered.lovable.app/__l5e/assets-v1/f5295263-f5a7-49e9-af42-6b1454ddc2da/tech-stripe.svg"
+      ],
+      "localPath": "/assets/originals/technology/stripe.svg",
+      "type": "image/svg+xml",
+      "usage": [
+        "src/lib/assets.ts (technology inventory; first ten displayed by TechnologyMarquee)"
+      ],
+      "declaredBytes": 588,
+      "status": "available",
+      "bytes": 588,
+      "sha256": "130c6d957b8977f5eda2928267b9df531ca038a400a801765d263801bb1bd870",
+      "downloadedFrom": "https://daladana.lovable.app/__l5e/assets-v1/f5295263-f5a7-49e9-af42-6b1454ddc2da/tech-stripe.svg"
+    },
+    {
+      "id": "technology/supabase.svg",
+      "sourceManifest": "src/assets/technology/supabase.svg.asset.json",
+      "originalUrl": "/__l5e/assets-v1/83ed08ca-fcac-4477-a731-ce8fce1d1f5e/tech-supabase.svg",
+      "requestedUrls": [
+        "https://daladana.lovable.app/__l5e/assets-v1/83ed08ca-fcac-4477-a731-ce8fce1d1f5e/tech-supabase.svg",
+        "https://webarea-rediscovered.lovable.app/__l5e/assets-v1/83ed08ca-fcac-4477-a731-ce8fce1d1f5e/tech-supabase.svg"
+      ],
+      "localPath": "/assets/originals/technology/supabase.svg",
+      "type": "image/svg+xml",
+      "usage": [
+        "src/lib/assets.ts (technology inventory; first ten displayed by TechnologyMarquee)"
+      ],
+      "declaredBytes": 303,
+      "status": "available",
+      "bytes": 303,
+      "sha256": "61bf16d93be418f723ae1e137e57afdad4f185352fbc6dea9482af1e0a89ccf7",
+      "downloadedFrom": "https://daladana.lovable.app/__l5e/assets-v1/83ed08ca-fcac-4477-a731-ce8fce1d1f5e/tech-supabase.svg"
+    },
+    {
+      "id": "technology/swish-logo.svg",
+      "sourceManifest": "src/assets/technology/swish-logo.svg.asset.json",
+      "originalUrl": "/__l5e/assets-v1/83d8ab14-5851-4294-a4b7-7cd4f856d59b/tech-swish.svg",
+      "requestedUrls": [
+        "https://daladana.lovable.app/__l5e/assets-v1/83d8ab14-5851-4294-a4b7-7cd4f856d59b/tech-swish.svg",
+        "https://webarea-rediscovered.lovable.app/__l5e/assets-v1/83d8ab14-5851-4294-a4b7-7cd4f856d59b/tech-swish.svg"
+      ],
+      "localPath": "/assets/originals/technology/swish-logo.svg",
+      "type": "image/svg+xml",
+      "usage": [
+        "src/lib/assets.ts (technology inventory; first ten displayed by TechnologyMarquee)"
+      ],
+      "declaredBytes": 5325,
+      "status": "available",
+      "bytes": 5325,
+      "sha256": "bc2f236c6c6a96a5e76fc2de063e52ceacc8b87faf23a950082df30125cd9b3c",
+      "downloadedFrom": "https://daladana.lovable.app/__l5e/assets-v1/83d8ab14-5851-4294-a4b7-7cd4f856d59b/tech-swish.svg"
+    },
+    {
+      "id": "technology/tailwindcss.svg",
+      "sourceManifest": "src/assets/technology/tailwindcss.svg.asset.json",
+      "originalUrl": "/__l5e/assets-v1/c7a1948e-b19c-4e16-a3d0-5567d8dfc0f7/tech-tailwindcss.svg",
+      "requestedUrls": [
+        "https://daladana.lovable.app/__l5e/assets-v1/c7a1948e-b19c-4e16-a3d0-5567d8dfc0f7/tech-tailwindcss.svg",
+        "https://webarea-rediscovered.lovable.app/__l5e/assets-v1/c7a1948e-b19c-4e16-a3d0-5567d8dfc0f7/tech-tailwindcss.svg"
+      ],
+      "localPath": "/assets/originals/technology/tailwindcss.svg",
+      "type": "image/svg+xml",
+      "usage": [
+        "src/lib/assets.ts (technology inventory; first ten displayed by TechnologyMarquee)"
+      ],
+      "declaredBytes": 602,
+      "status": "available",
+      "bytes": 602,
+      "sha256": "5d4ede3c95da824f543c6eefbe7c78b45ecce6796f6633de196dd712a7841140",
+      "downloadedFrom": "https://daladana.lovable.app/__l5e/assets-v1/c7a1948e-b19c-4e16-a3d0-5567d8dfc0f7/tech-tailwindcss.svg"
+    },
+    {
+      "id": "technology/typescript.svg",
+      "sourceManifest": "src/assets/technology/typescript.svg.asset.json",
+      "originalUrl": "/__l5e/assets-v1/a6292668-a04e-4623-a4e0-5ba222fbf096/tech-typescript.svg",
+      "requestedUrls": [
+        "https://daladana.lovable.app/__l5e/assets-v1/a6292668-a04e-4623-a4e0-5ba222fbf096/tech-typescript.svg",
+        "https://webarea-rediscovered.lovable.app/__l5e/assets-v1/a6292668-a04e-4623-a4e0-5ba222fbf096/tech-typescript.svg"
+      ],
+      "localPath": "/assets/originals/technology/typescript.svg",
+      "type": "image/svg+xml",
+      "usage": [
+        "src/lib/assets.ts (technology inventory; first ten displayed by TechnologyMarquee)"
+      ],
+      "declaredBytes": 1294,
+      "status": "available",
+      "bytes": 1294,
+      "sha256": "7f023e8d1e767370306ec9437d2de5d5af97491d6208dd7799a3808a7c10a36a",
+      "downloadedFrom": "https://daladana.lovable.app/__l5e/assets-v1/a6292668-a04e-4623-a4e0-5ba222fbf096/tech-typescript.svg"
+    },
+    {
+      "id": "technology/woocommerce.svg",
+      "sourceManifest": "src/assets/technology/woocommerce.svg.asset.json",
+      "originalUrl": "/__l5e/assets-v1/88fa0219-b8db-43f4-b43f-d8a77882b7df/tech-woocommerce.svg",
+      "requestedUrls": [
+        "https://daladana.lovable.app/__l5e/assets-v1/88fa0219-b8db-43f4-b43f-d8a77882b7df/tech-woocommerce.svg",
+        "https://webarea-rediscovered.lovable.app/__l5e/assets-v1/88fa0219-b8db-43f4-b43f-d8a77882b7df/tech-woocommerce.svg"
+      ],
+      "localPath": "/assets/originals/technology/woocommerce.svg",
+      "type": "image/svg+xml",
+      "usage": [
+        "src/lib/assets.ts (technology inventory; first ten displayed by TechnologyMarquee)"
+      ],
+      "declaredBytes": 3574,
+      "status": "available",
+      "bytes": 3574,
+      "sha256": "3a74e2c6cc29d679cdd8eff36660f2e105ae157bb0626c53d1172d08f275704e",
+      "downloadedFrom": "https://daladana.lovable.app/__l5e/assets-v1/88fa0219-b8db-43f4-b43f-d8a77882b7df/tech-woocommerce.svg"
+    },
+    {
+      "id": "technology/wordpress.svg",
+      "sourceManifest": "src/assets/technology/wordpress.svg.asset.json",
+      "originalUrl": "/__l5e/assets-v1/0c84fa83-e758-4406-99cd-ecd2fb5a1bf9/tech-wordpress.svg",
+      "requestedUrls": [
+        "https://daladana.lovable.app/__l5e/assets-v1/0c84fa83-e758-4406-99cd-ecd2fb5a1bf9/tech-wordpress.svg",
+        "https://webarea-rediscovered.lovable.app/__l5e/assets-v1/0c84fa83-e758-4406-99cd-ecd2fb5a1bf9/tech-wordpress.svg"
+      ],
+      "localPath": "/assets/originals/technology/wordpress.svg",
+      "type": "image/svg+xml",
+      "usage": [
+        "src/lib/assets.ts (technology inventory; first ten displayed by TechnologyMarquee)"
+      ],
+      "declaredBytes": 1059,
+      "status": "available",
+      "bytes": 1059,
+      "sha256": "8877151b8978c3c961d16659ba28603a4015872e79fbbb770d09b68b0da8a4ff",
+      "downloadedFrom": "https://daladana.lovable.app/__l5e/assets-v1/0c84fa83-e758-4406-99cd-ecd2fb5a1bf9/tech-wordpress.svg"
+    },
+    {
+      "id": "hero-forest.jpg",
+      "originalUrl": null,
+      "sourceManifest": "src/assets/hero-forest.jpg",
+      "requestedUrls": [],
+      "localPath": "/assets/originals/hero-forest.jpg",
+      "type": "image/jpeg",
+      "usage": [],
+      "status": "removed-unused",
+      "bytes": 194597,
+      "sha256": "41d26cb09b5bdd26bd0324bc33e8ac0100cd2b91440894e0d6990b621ca1f557",
+      "optimized": [
+        {
+          "src": "/assets/images/hero-forest-480.webp",
+          "bytes": 12810,
+          "sha256": "05737c570d086faca129010fa1d1f48d6108ad462dd4caa8d5fc0c3bf0c17598",
+          "width": 480,
+          "height": 272
+        },
+        {
+          "src": "/assets/images/hero-forest-768.webp",
+          "bytes": 27428,
+          "sha256": "ffc927f6803c88828630b78753be4cd6b47776849ba61a7381e3db0c4425fa07",
+          "width": 768,
+          "height": 435
+        },
+        {
+          "src": "/assets/images/hero-forest-1200.webp",
+          "bytes": 55716,
+          "sha256": "b9dc0427736b859c7ba30d2adb01467193c5c0f56a0fc76d11049234a24d49a8",
+          "width": 1200,
+          "height": 680
+        }
+      ],
+      "usageNote": "Removed because the current site has no runtime reference to this asset; provenance is retained."
+    },
+    {
+      "id": "logo-mark.png",
+      "originalUrl": null,
+      "sourceManifest": "src/assets/logo-mark.png",
+      "requestedUrls": [],
+      "localPath": "/assets/originals/logo-mark.png",
+      "type": "image/png",
+      "usage": [],
+      "status": "removed-unused",
+      "bytes": 71984,
+      "sha256": "4c8653222d3e7405098691e0aaa972bb75b1d7ee2a8930e98bde57b15e1ba183",
+      "optimized": [
+        {
+          "src": "/assets/images/logo-mark-480.webp",
+          "bytes": 15478,
+          "sha256": "9b684ccb4536f62153629a68426e7414f6ad4e1788e9ee7599cd504692e25133",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/assets/images/logo-mark-512.webp",
+          "bytes": 14160,
+          "sha256": "e00995109eadf2830715c83d5a2811e833d01cbdef6973ae256d7774268946b3",
+          "width": 512,
+          "height": 512
+        }
+      ],
+      "usageNote": "Removed because the current site has no runtime reference to this asset; provenance is retained."
+    },
+    {
+      "id": "cinzel-latin-ext.woff2",
+      "originalUrl": "https://fonts.gstatic.com/s/cinzel/v26/8vIJ7ww63mVu7gt7-GT7LEc.woff2",
+      "requestedUrls": [
+        "https://fonts.gstatic.com/s/cinzel/v26/8vIJ7ww63mVu7gt7-GT7LEc.woff2"
+      ],
+      "localPath": "/assets/fonts/cinzel-latin-ext.woff2",
+      "type": "font/woff2",
+      "usage": [
+        "src/styles.css"
+      ],
+      "family": "Cinzel",
+      "subset": "latin-ext",
+      "status": "available",
+      "bytes": 14540,
+      "sha256": "8fc2606f8ae6c569f444e138dba052d9a6e3f0657f9031796503bbb94eced600",
+      "downloadedFrom": "https://fonts.gstatic.com/s/cinzel/v26/8vIJ7ww63mVu7gt7-GT7LEc.woff2"
+    },
+    {
+      "id": "cinzel-latin.woff2",
+      "originalUrl": "https://fonts.gstatic.com/s/cinzel/v26/8vIJ7ww63mVu7gt79mT7.woff2",
+      "requestedUrls": [
+        "https://fonts.gstatic.com/s/cinzel/v26/8vIJ7ww63mVu7gt79mT7.woff2"
+      ],
+      "localPath": "/assets/fonts/cinzel-latin.woff2",
+      "type": "font/woff2",
+      "usage": [
+        "src/styles.css"
+      ],
+      "family": "Cinzel",
+      "subset": "latin",
+      "status": "available",
+      "bytes": 25904,
+      "sha256": "09941fb1c169c38fd414536b37690057fc01b3117a5c63dd6571186540c8f370",
+      "downloadedFrom": "https://fonts.gstatic.com/s/cinzel/v26/8vIJ7ww63mVu7gt79mT7.woff2"
+    },
+    {
+      "id": "ibm-plex-sans-latin-ext.woff2",
+      "originalUrl": "https://fonts.gstatic.com/s/ibmplexsans/v23/zYXzKVElMYYaJe8bpLHnCwDKr932-G7dytD-Dmu1syxQKYbABA.woff2",
+      "requestedUrls": [
+        "https://fonts.gstatic.com/s/ibmplexsans/v23/zYXzKVElMYYaJe8bpLHnCwDKr932-G7dytD-Dmu1syxQKYbABA.woff2"
+      ],
+      "localPath": "/assets/fonts/ibm-plex-sans-latin-ext.woff2",
+      "type": "font/woff2",
+      "usage": [
+        "src/styles.css"
+      ],
+      "family": "IBM Plex Sans",
+      "subset": "latin-ext",
+      "status": "available",
+      "bytes": 30964,
+      "sha256": "d160e20920ae4d6556518d352d3af27a74e9b0de3d8fe17b1c1044fc75aa2f81",
+      "downloadedFrom": "https://fonts.gstatic.com/s/ibmplexsans/v23/zYXzKVElMYYaJe8bpLHnCwDKr932-G7dytD-Dmu1syxQKYbABA.woff2"
+    },
+    {
+      "id": "ibm-plex-sans-latin.woff2",
+      "originalUrl": "https://fonts.gstatic.com/s/ibmplexsans/v23/zYXzKVElMYYaJe8bpLHnCwDKr932-G7dytD-Dmu1syxeKYY.woff2",
+      "requestedUrls": [
+        "https://fonts.gstatic.com/s/ibmplexsans/v23/zYXzKVElMYYaJe8bpLHnCwDKr932-G7dytD-Dmu1syxeKYY.woff2"
+      ],
+      "localPath": "/assets/fonts/ibm-plex-sans-latin.woff2",
+      "type": "font/woff2",
+      "usage": [
+        "src/styles.css"
+      ],
+      "family": "IBM Plex Sans",
+      "subset": "latin",
+      "status": "available",
+      "bytes": 45712,
+      "sha256": "e2291e842cf5af167122a22881a740c7f2dda7716f1e8cd76680264f4a859470",
+      "downloadedFrom": "https://fonts.gstatic.com/s/ibmplexsans/v23/zYXzKVElMYYaJe8bpLHnCwDKr932-G7dytD-Dmu1syxeKYY.woff2"
+    },
+    {
+      "id": "ibm-plex-sans-license",
+      "originalUrl": "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsans/OFL.txt",
+      "requestedUrls": [
+        "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsans/OFL.txt"
+      ],
+      "localPath": "/assets/fonts/ibm-plex-sans-OFL.txt",
+      "type": "text/plain",
+      "usage": [
+        "Font redistribution license"
+      ],
+      "status": "available",
+      "bytes": 4456,
+      "sha256": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da",
+      "downloadedFrom": "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsans/OFL.txt"
+    },
+    {
+      "id": "cinzel-license",
+      "originalUrl": "https://raw.githubusercontent.com/google/fonts/main/ofl/cinzel/OFL.txt",
+      "requestedUrls": [
+        "https://raw.githubusercontent.com/google/fonts/main/ofl/cinzel/OFL.txt"
+      ],
+      "localPath": "/assets/fonts/cinzel-OFL.txt",
+      "type": "text/plain",
+      "usage": [
+        "Font redistribution license"
+      ],
+      "status": "available",
+      "bytes": 4383,
+      "sha256": "f2b3029aba64c378bf0963b62945eee15e564fe4330b934c8f2eb058282b5e83",
+      "downloadedFrom": "https://raw.githubusercontent.com/google/fonts/main/ofl/cinzel/OFL.txt"
+    },
+    {
+      "id": "favicon",
+      "originalUrl": null,
+      "requestedUrls": [],
+      "localPath": "/favicon.png",
+      "type": "image/png",
+      "bytes": 6872,
+      "status": "available",
+      "sha256": "af45fb2b4a139012f6a42aa3ac7e2c2cdd05d61df65a2a3d2b059a88028899ab",
+      "usage": [
+        "src/routes/__root.tsx"
+      ]
+    },
+    {
+      "id": "font-stylesheet",
+      "originalUrl": "https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300..700&family=Cinzel:wght@600..700&display=swap",
+      "requestedUrls": [
+        "https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300..700&family=Cinzel:wght@600..700&display=swap"
+      ],
+      "localPath": "/assets/fonts/fonts.css",
+      "type": "text/css",
+      "status": "available",
+      "bytes": 1643,
+      "sha256": "3ad6318b5cafc28e957622c05b846406fcc0bf224e37211f1830c8ac4d1bb9b5",
+      "usage": [
+        "src/styles.css"
+      ],
+      "note": "Generated stylesheet with exclusively same-origin local font URLs"
+    }
+  ],
+  "socialShare": {
+    "src": "/assets/social-share.jpg",
+    "bytes": 45817,
+    "sha256": "5dfc9c06ca3831e32174a2700862982c1934b3e9997bc5d0969379fd563a9592",
+    "width": 1200,
+    "height": 630
+  },
+  "optimizedAt": "2026-10-20T09:02:59.166Z",
+  "totals": {
+    "originalBytes": 22166487,
+    "optimizedBytes": 3879654
+  }
+}
