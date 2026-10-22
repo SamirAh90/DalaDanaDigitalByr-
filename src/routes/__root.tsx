@@ -91,6 +91,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
+      { name: "application-name", content: "DALADANA" },
       { title: "DALADANA — Digitalbyrå i Dalarna" },
       {
         name: "description",
@@ -197,6 +198,7 @@ function RootComponent() {
         data={[
           organizationGraph({
             name: company.name,
+            alternateNames: ["DalaDana", "DALADANA digitalbyrå"],
             description: defaultDescription,
             telephone: "+46700221520",
             streetAddress: company.address[0] ?? "",

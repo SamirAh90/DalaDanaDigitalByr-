@@ -34,6 +34,7 @@ export function serializeJsonLd(data: JsonLd | JsonLd[]) {
 
 export function organizationGraph({
   name,
+  alternateNames,
   description,
   telephone,
   streetAddress,
@@ -42,6 +43,7 @@ export function organizationGraph({
   sameAs,
 }: {
   name: string;
+  alternateNames: string[];
   description: string;
   telephone: string;
   streetAddress: string;
@@ -59,6 +61,7 @@ export function organizationGraph({
         "@type": ["Organization", "ProfessionalService"],
         "@id": organizationId,
         name,
+        alternateName: alternateNames,
         url: publicUrl("/"),
         logo: {
           "@type": "ImageObject",
@@ -68,6 +71,14 @@ export function organizationGraph({
         },
         image: publicUrl("/assets/social-share.jpg"),
         description,
+        slogan: "Personlig digitalbyrå i Ludvika, Dalarna",
+        knowsAbout: [
+          "Webbdesign",
+          "Webbutveckling",
+          "Webbshoppar",
+          "Bokningssystem",
+          "Sökmotoroptimering",
+        ],
         telephone,
         address: {
           "@type": "PostalAddress",
@@ -89,6 +100,7 @@ export function organizationGraph({
         "@id": websiteId,
         url: publicUrl("/"),
         name,
+        alternateName: alternateNames,
         description,
         inLanguage: siteLocale,
         publisher: { "@id": organizationId },

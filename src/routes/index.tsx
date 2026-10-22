@@ -15,7 +15,7 @@ export const Route = createFileRoute("/")({
       { title: "DALADANA — digitalbyrå i Dalarna | Hemsidor, webbshop & SEO" },
       {
         name: "description",
-        content: `Samir Ahmad bygger hemsidor, webbshoppar och bokningssidor för företag i Dalarna och Sverige. ${startingPrice}. Egen design och fast offert.`,
+        content: `DALADANA är Samir Ahmads digitalbyrå i Ludvika. Hemsidor, webbshoppar och bokningssidor för företag i Dalarna och Sverige. ${startingPrice}.`,
       },
       { property: "og:title", content: "DALADANA — digitalbyrå i Dalarna" },
       {
