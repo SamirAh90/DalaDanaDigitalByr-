@@ -14,6 +14,9 @@ import {
 } from "lucide-react";
 import { ContactCta, PageHero, Section } from "@/components/site/ui";
 import { services, servicePage } from "@/content/site";
+import { company } from "@/content/site";
+import { StructuredData } from "@/components/site/StructuredData";
+import { publicUrl, type JsonLd } from "@/lib/seo";
 
 export const Route = createFileRoute("/tjanster/")({
   head: () => ({
@@ -38,8 +41,30 @@ export const Route = createFileRoute("/tjanster/")({
 });
 
 function ServicesPage() {
+  const servicesSchema: JsonLd = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "@id": publicUrl("/tjanster#tjanstelista"),
+    name: "DALADANAs tjänster",
+    numberOfItems: services.length,
+    itemListElement: services.map((service, index) => ({
+      "@type": "ListItem",
+      position: index + 1,
+      item: {
+        "@type": "Service",
+        "@id": publicUrl(`/tjanster#${service.slug}`),
+        name: service.title,
+        description: service.description,
+        url: publicUrl(`/tjanster#${service.slug}`),
+        provider: { "@id": publicUrl("/#organization"), name: company.name },
+        areaServed: ["Ludvika", "Dalarna", "Sverige"],
+      },
+    })),
+  };
+
   return (
     <>
+      <StructuredData data={servicesSchema} />
       <PageHero eyebrow={servicePage.eyebrow} title={servicePage.title} intro={servicePage.intro} />
       <Section>
         <div className="grid gap-x-12 gap-y-10 md:grid-cols-2 lg:grid-cols-3">

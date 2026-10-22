@@ -193,6 +193,10 @@ test("metadata, local sharing image, robots and sitemap agree with the configure
     await expect(page).toHaveTitle(/DALADANA/);
     const image = page.locator('meta[property="og:image"]');
     await expect(image).toHaveAttribute("content", /\/assets\/social-share\.jpg$/);
+    await expect(page.locator('meta[property="og:site_name"]')).toHaveAttribute(
+      "content",
+      "DALADANA",
+    );
     const canonical = page.locator('link[rel="canonical"]');
     if (await canonical.count()) {
       const url = new URL((await canonical.getAttribute("href"))!);
@@ -209,6 +213,9 @@ test("metadata, local sharing image, robots and sitemap agree with the configure
   const sharing = await request.get("/assets/social-share.jpg");
   expect(sharing.status()).toBe(200);
   expect(sharing.headers()["content-type"]).toContain("image/jpeg");
+  const manifest = await request.get("/site.webmanifest");
+  expect(manifest.status()).toBe(200);
+  expect(await manifest.text()).toContain('"short_name": "DALADANA"');
   const robots = await request.get("/robots.txt");
   expect(robots.status()).toBe(200);
   const sitemap = await request.get("/sitemap.xml");
@@ -221,6 +228,26 @@ test("metadata, local sharing image, robots and sitemap agree with the configure
     expect(await robots.text()).toContain("Disallow: /");
     expect(sitemap.status()).toBe(503);
   }
+});
+
+test("structured data describes the business, services and visible FAQ content", async ({
+  page,
+}) => {
+  await page.goto("/");
+  const homeSchemas = await page.locator('script[type="application/ld+json"]').allTextContents();
+  if (homeSchemas.length) {
+    expect(homeSchemas.join(" ")).toContain('"ProfessionalService"');
+    expect(homeSchemas.join(" ")).toContain('"WebSite"');
+    expect(homeSchemas.join(" ")).toContain("Samir Ahmad");
+  }
+
+  await page.goto("/tjanster");
+  const serviceSchemas = await page.locator('script[type="application/ld+json"]').allTextContents();
+  if (serviceSchemas.length) expect(serviceSchemas.join(" ")).toContain('"ItemList"');
+
+  await page.goto("/faq");
+  const faqSchemas = await page.locator('script[type="application/ld+json"]').allTextContents();
+  if (faqSchemas.length) expect(faqSchemas.join(" ")).toContain('"FAQPage"');
 });
 
 test("cross-site server-function requests fail CSRF validation", async ({ page, request }) => {

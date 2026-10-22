@@ -3,6 +3,8 @@ import { ChevronDown } from "lucide-react";
 import { useState } from "react";
 import { ContactCta, PageHero, Section } from "@/components/site/ui";
 import { faq } from "@/content/site";
+import { StructuredData } from "@/components/site/StructuredData";
+import { publicUrl, type JsonLd } from "@/lib/seo";
 
 export const Route = createFileRoute("/faq")({
   head: () => ({
@@ -37,8 +39,25 @@ function FaqPage() {
     }))
     .filter((cat) => cat.items.length > 0);
 
+  const faqSchema: JsonLd = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "@id": publicUrl("/faq#faq"),
+    url: publicUrl("/faq"),
+    name: "Vanliga frågor om hemsidor, pris och SEO",
+    inLanguage: "sv-SE",
+    mainEntity: faq.flatMap((category) =>
+      category.items.map((item) => ({
+        "@type": "Question",
+        name: item.q,
+        acceptedAnswer: { "@type": "Answer", text: item.a },
+      })),
+    ),
+  };
+
   return (
     <>
+      <StructuredData data={faqSchema} />
       <PageHero
         eyebrow="Vanliga frågor"
         title="Svar på allt du undrar"

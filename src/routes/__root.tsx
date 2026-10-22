@@ -5,6 +5,7 @@ import {
   Link,
   createRootRouteWithContext,
   useRouter,
+  useRouterState,
   HeadContent,
   Scripts,
   type ErrorRouteComponent,
@@ -12,11 +13,21 @@ import {
 import { type ReactNode } from "react";
 
 import appCss from "../styles.css?url";
-import { canonicalPath, publicSiteUrl, publicUrl } from "@/lib/seo";
+import {
+  canonicalPath,
+  breadcrumbGraph,
+  defaultDescription,
+  organizationGraph,
+  publicSiteUrl,
+  publicUrl,
+  siteName,
+} from "@/lib/seo";
 import { Header } from "@/components/site/Header";
 import { Footer } from "@/components/site/Footer";
 import { CookieBanner } from "@/components/site/CookieBanner";
 import { ScrollGlow } from "@/components/site/ScrollGlow";
+import { StructuredData } from "@/components/site/StructuredData";
+import { company } from "@/content/site";
 
 function NotFoundComponent() {
   return (
@@ -83,16 +94,19 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { title: "DALADANA — Digitalbyrå i Dalarna" },
       {
         name: "description",
-        content: "Moderna hemsidor, e-handel och SEO för företag som vill växa digitalt.",
+        content: defaultDescription,
       },
       { property: "og:title", content: "DALADANA — Digitalbyrå i Dalarna" },
       {
         property: "og:description",
-        content: "Moderna hemsidor, e-handel och SEO för företag som vill växa digitalt.",
+        content: defaultDescription,
       },
       { property: "og:type", content: "website" },
       { property: "og:locale", content: "sv_SE" },
+      { property: "og:site_name", content: siteName },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "DALADANA — Digitalbyrå i Dalarna" },
+      { name: "twitter:description", content: defaultDescription },
       { property: "og:image", content: publicUrl("/assets/social-share.jpg") },
       { property: "og:image:alt", content: "DALADANA – en digital byrå med rötterna i Dalarna" },
       { property: "og:image:width", content: "1200" },
@@ -118,6 +132,17 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         crossOrigin: "anonymous",
       },
       { rel: "icon", type: "image/png", href: "/favicon.png" },
+      { rel: "manifest", href: "/site.webmanifest" },
+      {
+        rel: "alternate",
+        hrefLang: "sv-SE",
+        href: publicUrl(canonicalPath(matches.at(-1)?.pathname ?? "/")),
+      },
+      {
+        rel: "alternate",
+        hrefLang: "x-default",
+        href: publicUrl(canonicalPath(matches.at(-1)?.pathname ?? "/")),
+      },
       ...(publicSiteUrl
         ? [{ rel: "canonical", href: publicUrl(canonicalPath(matches.at(-1)?.pathname ?? "/")) }]
         : []),
@@ -146,6 +171,17 @@ function RootShell({ children }: { children: ReactNode }) {
 
 function RootComponent() {
   const { queryClient } = Route.useRouteContext();
+  const pathname = canonicalPath(useRouterState({ select: (state) => state.location.pathname }));
+  const pageNames: Record<string, string> = {
+    "/tjanster": "Tjänster",
+    "/priser": "Priser",
+    "/kundcase": "Kundcase",
+    "/om-oss": "Om oss",
+    "/kontakt": "Kontakt",
+    "/faq": "Vanliga frågor",
+    "/integritetspolicy": "Integritetspolicy",
+  };
+  const pageName = pageNames[pathname];
 
   return (
     <QueryClientProvider client={queryClient}>
@@ -157,6 +193,27 @@ function RootComponent() {
         {/* Required: nested routes render here. Removing <Outlet /> breaks all child routes. */}
         <Outlet />
       </main>
+      <StructuredData
+        data={[
+          organizationGraph({
+            name: company.name,
+            description: defaultDescription,
+            telephone: "+46700221520",
+            streetAddress: company.address[0] ?? "",
+            addressLocality: company.address[1] ?? "",
+            founder: company.owner,
+            sameAs: company.socials.map((social) => social.url),
+          }),
+          ...(pageName
+            ? [
+                breadcrumbGraph([
+                  { name: "Hem", path: "/" },
+                  { name: pageName, path: pathname },
+                ]),
+              ]
+            : []),
+        ]}
+      />
       <Footer />
       <CookieBanner />
       <ScrollGlow />
