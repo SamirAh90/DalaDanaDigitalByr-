@@ -1,6 +1,6 @@
 # Kontakt och mötesförfrågningar
 
-Kontaktformuläret och paketdialogen använder samma TanStack Start-serverfunktion (`src/server/enquiry.ts`) och leveranslogik (`src/server/enquiry.server.ts`). En Node-server krävs; statisk hosting räcker inte för formulären. Inget Lovable-konto eller Lovable-backend behövs.
+Kontaktformuläret och paketdialogen använder samma TanStack Start-serverfunktion (`src/server/enquiry.ts`) och leveranslogik (`src/server/enquiry.server.ts`). En Node-server krävs; statisk hosting räcker inte för formulären.
 
 ## Aktivering
 

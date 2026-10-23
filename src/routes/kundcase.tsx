@@ -42,25 +42,37 @@ function CasesPage() {
               id={c.slug}
               className="animated-border group folk-accent scroll-mt-28 flex flex-col overflow-hidden rounded-lg border border-border bg-card transition-all hover:-translate-y-1 hover:border-copper/60"
             >
-              <a
-                href={c.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="relative block overflow-hidden rounded-t-lg"
-                aria-label={`Öppna ${c.name} i ny flik`}
-              >
-                <ResponsiveImage
-                  asset={c.imageAsset}
-                  sizes="(min-width: 1024px) 352px, (min-width: 768px) 46vw, 90vw"
-                  alt={`Webbplats för ${c.name}`}
-                  loading="lazy"
-                  className="aspect-[3/2] w-full object-cover transition-transform duration-500 group-hover:scale-[1.03]"
-                />
-                <span className="absolute right-4 top-4 inline-flex items-center gap-1.5 rounded-full bg-background/85 px-4 py-1.5 text-sm font-medium text-foreground shadow-none backdrop-blur transition-colors group-hover:bg-copper group-hover:text-primary-foreground">
-                  Besök webbplatsen
-                  <ArrowUpRight className="size-4" />
-                </span>
-              </a>
+              {c.url ? (
+                <a
+                  href={c.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="relative block overflow-hidden rounded-t-lg"
+                  aria-label={`Öppna ${c.name} i ny flik`}
+                >
+                  <ResponsiveImage
+                    asset={c.imageAsset}
+                    sizes="(min-width: 1024px) 352px, (min-width: 768px) 46vw, 90vw"
+                    alt={`Webbplats för ${c.name}`}
+                    loading="lazy"
+                    className="aspect-[3/2] w-full object-cover transition-transform duration-500 group-hover:scale-[1.03]"
+                  />
+                  <span className="absolute right-4 top-4 inline-flex items-center gap-1.5 rounded-full bg-background/85 px-4 py-1.5 text-sm font-medium text-foreground shadow-none backdrop-blur transition-colors group-hover:bg-copper group-hover:text-primary-foreground">
+                    Besök webbplatsen
+                    <ArrowUpRight className="size-4" />
+                  </span>
+                </a>
+              ) : (
+                <div className="relative overflow-hidden rounded-t-lg">
+                  <ResponsiveImage
+                    asset={c.imageAsset}
+                    sizes="(min-width: 1024px) 352px, (min-width: 768px) 46vw, 90vw"
+                    alt={`Webbplats för ${c.name}`}
+                    loading="lazy"
+                    className="aspect-[3/2] w-full object-cover transition-transform duration-500 group-hover:scale-[1.03]"
+                  />
+                </div>
+              )}
 
               <div className="flex flex-1 flex-col p-7">
                 <div className="flex flex-wrap gap-2">
@@ -78,15 +90,17 @@ function CasesPage() {
                 <p className="mt-4 line-clamp-4 flex-1 text-sm leading-relaxed text-muted-foreground">
                   {c.summary}
                 </p>
-                <a
-                  href={c.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="mt-6 inline-flex items-center gap-2 text-sm font-medium text-copper hover:underline"
-                >
-                  Besök webbplatsen
-                  <ArrowUpRight className="size-4 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
-                </a>
+                {c.url ? (
+                  <a
+                    href={c.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="mt-6 inline-flex items-center gap-2 text-sm font-medium text-copper hover:underline"
+                  >
+                    Besök webbplatsen
+                    <ArrowUpRight className="size-4 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
+                  </a>
+                ) : null}
               </div>
             </article>
           ))}

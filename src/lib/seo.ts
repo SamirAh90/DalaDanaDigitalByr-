@@ -61,6 +61,7 @@ export function organizationGraph({
         "@type": ["Organization", "ProfessionalService"],
         "@id": organizationId,
         name,
+        legalName: name,
         alternateName: alternateNames,
         url: publicUrl("/"),
         logo: {
@@ -92,7 +93,19 @@ export function organizationGraph({
           { "@type": "AdministrativeArea", name: "Dalarna" },
           { "@type": "Country", name: "Sverige" },
         ],
-        founder: { "@type": "Person", name: founder },
+        founder: {
+          "@type": "Person",
+          "@id": publicUrl("/om-oss#samir-ahmad"),
+          name: founder,
+          jobTitle: "Grundare och webbutvecklare",
+        },
+        contactPoint: {
+          "@type": "ContactPoint",
+          telephone,
+          contactType: "kundservice",
+          areaServed: "SE",
+          availableLanguage: ["sv"],
+        },
         sameAs,
       },
       {

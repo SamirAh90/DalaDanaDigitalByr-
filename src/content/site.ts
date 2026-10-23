@@ -596,7 +596,7 @@ export type CaseItem = {
   subtitle: string;
   summary: string;
   tags: string[];
-  url: string;
+  url?: string;
   image: string;
   imageAsset: LocalImage;
   imageSrcSet: string;
@@ -611,9 +611,8 @@ export const cases: CaseItem[] = [
     name: "Lilla Kaffehuset",
     subtitle: "Hemsida för ett personligt kafé",
     summary:
-      "En webbplats för Lilla Kaffehuset med varm färgskala, meny, öppettider och kontaktinformation. Se webbplatsen för utformning och innehåll.",
+      "En webbplats för Lilla Kaffehuset med varm färgskala, meny, öppettider och kontaktinformation.",
     tags: ["Hemsida", "Kafé"],
-    url: "https://demo-lilla-kaffehus-web.lovable.app",
     image: assets.caseKaffehuset.src,
     imageAsset: assets.caseKaffehuset,
     imageSrcSet: assets.caseKaffehuset.srcSet,

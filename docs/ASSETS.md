@@ -1,6 +1,6 @@
 # Lokala resurser
 
-Alla tidigare Lovable-pekare och deras ursprung finns dokumenterade i inventeringen. Nödvändiga originalfiler finns i `public/assets/originals/`, med samma underkatalog för `technology/`. Hero-videon är ett avsiktligt undantag och lagras endast som optimerad runtime-fil för att undvika dubbel lagring. Ursprungliga filnamn med `synord` och `dalanord` behålls för spårbarhet.
+Tillgångarnas ursprung finns dokumenterade i inventeringen. Nödvändiga originalfiler finns i `public/assets/originals/`, med samma underkatalog för `technology/`. Hero-videon är ett avsiktligt undantag och lagras endast som optimerad runtime-fil för att undvika dubbel lagring. Ursprungliga filnamn med `synord` och `dalanord` behålls för spårbarhet.
 
 `public/assets/manifest.json` dokumenterar ursprunglig manifestfil, ursprungliga och försökta URL:er, lokal sökväg, användningsställen, filtyp, byteantal, SHA-256 och framtagna varianter. Arkiverade designresurser som inte visas i den nuvarande layouten finns kvar och är markerade. Originaladresser är endast dokumentation och används inte vid byggning eller normal drift.
 
@@ -44,10 +44,10 @@ npm run assets:import
 npm run assets:optimize
 ```
 
-`npm run assets:verify` är en skrivskyddad kontroll som inte använder nätverket. Den kontrollerar samtliga inventerade filer, optimerade varianter och aktuella bildmetadata mot lokala sökvägar, filstorlekar, SHA-256 och filsignaturer. Den verifierar också typsnittsstilmallens lokala URL:er, responsiva bildkällor och att klientkoden inte återinför Lovable-pekare, globala integrationer eller externa Google Fonts-anrop. Arkiverad proveniens och vanliga kundlänkar är tillåtna. Kommandot misslyckas om en fil saknas, har ändrats utan uppdaterat manifest eller innehåller exempelvis en HTML-felsida.
+`npm run assets:verify` är en skrivskyddad kontroll som inte använder nätverket. Den kontrollerar samtliga inventerade filer, optimerade varianter och aktuella bildmetadata mot lokala sökvägar, filstorlekar, SHA-256 och filsignaturer. Den verifierar också typsnittsstilmallens lokala URL:er, responsiva bildkällor och att klientkoden inte återinför externa runtime-pekare, globala integrationer eller externa Google Fonts-anrop. Arkiverad proveniens och vanliga kundlänkar är tillåtna. Kommandot misslyckas om en fil saknas, har ändrats utan uppdaterat manifest eller innehåller exempelvis en HTML-felsida.
 
 Importen kräver nätverk endast för resurser som saknas och för att uppdatera typsnittsstilmallen. Den validerar PNG/JPEG/WebM/WOFF2-signaturer, SVG-innehåll och OFL-licenser innan filer skrivs. En HTML-felsida accepteras inte som media. Redan validerade lokala filer återanvänds. Om typsnittens fjärrstilmall är otillgänglig bevaras tidigare importerade lokala filer. Kör med `npm run assets:import -- --force` för uttrycklig återhämtning av redan befintliga filer. `ASSET_SOURCE_ORIGIN` kan sättas för att ändra importens primära ursprung; fallback är den tidigare publicerade projektadressen.
 
 Optimeringen är helt lokal och använder Sharp och den plattformsanpassade FFmpeg-binären från `ffmpeg-static`. Den skapar WebP-varianter utan uppskalning, extraherar herons stillbild, komprimerar runtime-videon och skriver bildmetadata och manifest. `npm run assets:optimize -- --video-only` uppdaterar endast video/stillbilder/delningsbild, med redan genererade bildmetadata som grund.
 
-`npm run build` och `npm start` behöver varken importskripten, nätåtkomst till ursprungen, Lovable-konto, Google Fonts eller FFmpeg. Alla nödvändiga resultat är vanliga filer i projektet och ska checkas in tillsammans med manifest och metadata.
+`npm run build` och `npm start` behöver varken importskripten, nätåtkomst till ursprungen, externa plattformskonton, Google Fonts eller FFmpeg. Alla nödvändiga resultat är vanliga filer i projektet och ska checkas in tillsammans med manifest och metadata.
