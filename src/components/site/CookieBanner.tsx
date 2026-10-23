@@ -51,7 +51,6 @@ export function CookieBanner() {
           onClick={() => {
             try {
               window.sessionStorage.removeItem(QUOTE_STORAGE_KEY);
-              window.localStorage.removeItem("cookie-consent");
               setCleared(true);
             } catch {
               setCleared(false);

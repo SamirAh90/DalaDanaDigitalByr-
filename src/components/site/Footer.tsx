@@ -59,7 +59,7 @@ export function Footer() {
             </p>
             <p>
               <Link to="/integritetspolicy" className="text-foreground hover:text-brand">
-                Cookies &amp; integritetspolicy
+                Integritet &amp; lokal lagring
               </Link>
             </p>
           </div>
