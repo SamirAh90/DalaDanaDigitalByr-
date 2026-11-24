@@ -4,6 +4,45 @@
   "note": "Origins are provenance only. Production and build use committed local files; reimport is optional.",
   "assets": [
     {
+      "id": "case-arya.webp",
+      "originalUrl": "https://chatgpt.com/c/6b056895-e7fc-83eb-a553-0bda2b423e94",
+      "requestedUrls": [
+        "https://chatgpt.com/c/6b056895-e7fc-83eb-a553-0bda2b423e94"
+      ],
+      "localPath": "/assets/originals/case-arya.png",
+      "type": "image/webp",
+      "usage": [
+        "src/content/site.ts",
+        "src/routes/index.tsx",
+        "src/routes/kundcase.tsx"
+      ],
+      "status": "source-remote",
+      "note": "Originalfilen saknas. De tre användarvalda optimerade varianterna fanns lokalt; ingen ersättningsbild har använts.",
+      "optimized": [
+        {
+          "src": "/assets/images/case-arya-480.webp",
+          "bytes": 40578,
+          "sha256": "4086d2fc2875846c950aeb2d12683e14e8122da5d7e3131dfc44c62128b47e3c",
+          "width": 480,
+          "height": 320
+        },
+        {
+          "src": "/assets/images/case-arya-768.webp",
+          "bytes": 80250,
+          "sha256": "30696f59ed3a5d07f22d30f611724a867745cc3ddd3012e0232e524c0f1f64da",
+          "width": 768,
+          "height": 512
+        },
+        {
+          "src": "/assets/images/case-arya-1200.webp",
+          "bytes": 146318,
+          "sha256": "c8fcc8e5027367cefbf5b72257ca2351621412ec486853a20f99c60b0d3f1cc5",
+          "width": 1200,
+          "height": 800
+        }
+      ]
+    },
+    {
       "id": "case-juridik.png",
       "sourceManifest": "src/assets/case-juridik.png.asset.json",
       "originalUrl": "/__l5e/assets-v1/3c5f76f4-7c93-49c8-846b-266b59978b85/case-juridik.png",
@@ -1015,6 +1054,80 @@
       "bytes": 4383,
       "sha256": "f2b3029aba64c378bf0963b62945eee15e564fe4330b934c8f2eb058282b5e83",
       "downloadedFrom": "https://raw.githubusercontent.com/google/fonts/main/ofl/cinzel/OFL.txt"
+    },
+    {
+      "id": "image1.png",
+      "originalUrl": null,
+      "requestedUrls": [],
+      "localPath": "/assets/originals/image1.png",
+      "type": "image/png",
+      "usage": [
+        "src/routes/om-oss.tsx"
+      ],
+      "status": "available",
+      "bytes": 781100,
+      "sha256": "59aad6312a330b3f24090657cf663f7e76ec733f7f81cf162338e73e2fb34c19",
+      "note": "User-provided desktop image; no external source URL supplied.",
+      "optimized": [
+        {
+          "src": "/assets/images/image1-960.webp",
+          "bytes": 17544,
+          "sha256": "fd36c5c87dabe4510ee1edba14b4f04a14e43a7268b213a3e98b5dd470f5158d",
+          "width": 960,
+          "height": 242
+        },
+        {
+          "src": "/assets/images/image1-1440.webp",
+          "bytes": 31396,
+          "sha256": "e8e5ed20ce4a3daeefa72bfd18ee6f4deba94489cdce9b8b78efbba5938d36bb",
+          "width": 1440,
+          "height": 364
+        },
+        {
+          "src": "/assets/images/image1-1584.webp",
+          "bytes": 35824,
+          "sha256": "4914359e6f68fbe21952b1537c9d597dd7903c3123717357fdafd021e8898b07",
+          "width": 1584,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "id": "image2.png",
+      "originalUrl": null,
+      "requestedUrls": [],
+      "localPath": "/assets/originals/image2.png",
+      "type": "image/png",
+      "usage": [
+        "src/routes/om-oss.tsx"
+      ],
+      "status": "available",
+      "bytes": 2134611,
+      "sha256": "6b9833682656e11db03a8f01034d1960bc0e3d3d7d1a07ef7d9a0b0c0d510387",
+      "note": "User-provided mobile image; no external source URL supplied.",
+      "optimized": [
+        {
+          "src": "/assets/images/image2-480.webp",
+          "bytes": 13426,
+          "sha256": "3e34ec5c1b161d2ba4e89609ed789e1c050b0e1b20ca9b3df8f1704bb8b4254d",
+          "width": 480,
+          "height": 270
+        },
+        {
+          "src": "/assets/images/image2-768.webp",
+          "bytes": 25396,
+          "sha256": "9bd60ba5ec1e6cfdb9f2e48c41ed7903ae42fb4fcea29c3fb9870cea08ec7d9c",
+          "width": 768,
+          "height": 432
+        },
+        {
+          "src": "/assets/images/image2-960.webp",
+          "bytes": 35470,
+          "sha256": "4708afffd96f8668085d9c4943656bfd1df139d56fa215e0229c634bb47d4ce8",
+          "width": 960,
+          "height": 540
+        }
+      ]
     },
     {
       "id": "favicon",

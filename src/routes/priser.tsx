@@ -35,7 +35,7 @@ export const Route = createFileRoute("/priser")({
       {
         name: "description",
         content:
-          "Räkna ut ett riktpris på din hemsida, jämför paket och få en gratis prototyp och exakt offert innan du bestämmer dig.",
+          "Räkna ut ett riktpris på din hemsida, jämför paket och se ett första designförslag innan du bestämmer dig.",
       },
       { property: "og:title", content: "Priser & paket | DALADANA" },
       {

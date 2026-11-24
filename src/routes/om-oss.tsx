@@ -57,25 +57,33 @@ function AboutPage() {
     <>
       <section className="relative isolate flex min-h-[420px] items-center overflow-hidden pt-28 pb-20 sm:min-h-[460px]">
         <picture className="absolute inset-0 -z-30 overflow-hidden" aria-hidden="true">
-          <source media="(max-width: 639px)" srcSet={assets.winterMobile.srcSet} sizes="100vw" />
+          <source
+            media="(max-width: 639px)"
+            srcSet={assets.aboutOfficeMobile.srcSet}
+            sizes="100vw"
+          />
           <ResponsiveImage
-            asset={assets.winterDesktop}
+            asset={assets.aboutOfficeDesktop}
             sizes="100vw"
             alt=""
             className="h-full w-full scale-105 object-cover blur-xl"
           />
         </picture>
         <picture className="absolute inset-0 -z-20">
-          <source media="(max-width: 639px)" srcSet={assets.winterMobile.srcSet} sizes="100vw" />
+          <source
+            media="(max-width: 639px)"
+            srcSet={assets.aboutOfficeMobile.srcSet}
+            sizes="100vw"
+          />
           <ResponsiveImage
-            asset={assets.winterDesktop}
+            asset={assets.aboutOfficeDesktop}
             sizes="100vw"
             fetchPriority="high"
-            alt="Röd dalahäst på ett snötäckt räcke framför Dalarnas vinterlandskap"
-            className="h-full w-full object-contain"
+            alt="Personlig digital rådgivning vid en dator"
+            className="h-full w-full object-cover"
           />
         </picture>
-        <div className="absolute inset-0 -z-10 bg-background/50" aria-hidden />
+        <div className="absolute inset-0 -z-10 bg-background/65" aria-hidden />
         <div className="container-page max-w-3xl text-center fade-up page-hero">
           <span className="eyebrow text-foreground">Om oss</span>
           <h1 className="mt-4">Om DALADANA</h1>

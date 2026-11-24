@@ -19,7 +19,7 @@ const DAY_MS = 24 * 60 * 60 * 1000;
 const MAX_ENTRIES = 5000;
 const success: EnquiryResult = {
   ok: true,
-  message: "Din förfrågan har skickats. Samir återkommer för att prata om nästa steg.",
+  message: "Tack! Din förfrågan är skickad. Vi återkommer vanligtvis inom en arbetsdag.",
 };
 const deliveryFailure: EnquiryResult = {
   ok: false,

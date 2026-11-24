@@ -1,4 +1,34 @@
 {
+  "case-arya.webp": {
+    "src": "/assets/images/case-arya-1200.webp",
+    "width": 1200,
+    "height": 800,
+    "srcSet": "/assets/images/case-arya-480.webp 480w, /assets/images/case-arya-768.webp 768w, /assets/images/case-arya-1200.webp 1200w",
+    "sizes": "(max-width: 767px) calc(100vw - 48px), (max-width: 1199px) 50vw, 560px",
+    "variants": [
+      {
+        "src": "/assets/images/case-arya-480.webp",
+        "bytes": 40578,
+        "sha256": "4086d2fc2875846c950aeb2d12683e14e8122da5d7e3131dfc44c62128b47e3c",
+        "width": 480,
+        "height": 320
+      },
+      {
+        "src": "/assets/images/case-arya-768.webp",
+        "bytes": 80250,
+        "sha256": "30696f59ed3a5d07f22d30f611724a867745cc3ddd3012e0232e524c0f1f64da",
+        "width": 768,
+        "height": 512
+      },
+      {
+        "src": "/assets/images/case-arya-1200.webp",
+        "bytes": 146318,
+        "sha256": "c8fcc8e5027367cefbf5b72257ca2351621412ec486853a20f99c60b0d3f1cc5",
+        "width": 1200,
+        "height": 800
+      }
+    ]
+  },
   "case-juridik.png": {
     "src": "/assets/images/case-juridik-1200.webp",
     "width": 1200,
@@ -146,6 +176,66 @@
         "sha256": "74a056264d917c145cc19173789baed7bc101fa1654e0a721595535ae3a38126",
         "width": 960,
         "height": 1196
+      }
+    ]
+  },
+  "image1.png": {
+    "src": "/assets/images/image1-1584.webp",
+    "width": 1584,
+    "height": 400,
+    "srcSet": "/assets/images/image1-960.webp 960w, /assets/images/image1-1440.webp 1440w, /assets/images/image1-1584.webp 1584w",
+    "sizes": "100vw",
+    "variants": [
+      {
+        "src": "/assets/images/image1-960.webp",
+        "bytes": 17544,
+        "sha256": "fd36c5c87dabe4510ee1edba14b4f04a14e43a7268b213a3e98b5dd470f5158d",
+        "width": 960,
+        "height": 242
+      },
+      {
+        "src": "/assets/images/image1-1440.webp",
+        "bytes": 31396,
+        "sha256": "e8e5ed20ce4a3daeefa72bfd18ee6f4deba94489cdce9b8b78efbba5938d36bb",
+        "width": 1440,
+        "height": 364
+      },
+      {
+        "src": "/assets/images/image1-1584.webp",
+        "bytes": 35824,
+        "sha256": "4914359e6f68fbe21952b1537c9d597dd7903c3123717357fdafd021e8898b07",
+        "width": 1584,
+        "height": 400
+      }
+    ]
+  },
+  "image2.png": {
+    "src": "/assets/images/image2-960.webp",
+    "width": 960,
+    "height": 540,
+    "srcSet": "/assets/images/image2-480.webp 480w, /assets/images/image2-768.webp 768w, /assets/images/image2-960.webp 960w",
+    "sizes": "100vw",
+    "variants": [
+      {
+        "src": "/assets/images/image2-480.webp",
+        "bytes": 13426,
+        "sha256": "3e34ec5c1b161d2ba4e89609ed789e1c050b0e1b20ca9b3df8f1704bb8b4254d",
+        "width": 480,
+        "height": 270
+      },
+      {
+        "src": "/assets/images/image2-768.webp",
+        "bytes": 25396,
+        "sha256": "9bd60ba5ec1e6cfdb9f2e48c41ed7903ae42fb4fcea29c3fb9870cea08ec7d9c",
+        "width": 768,
+        "height": 432
+      },
+      {
+        "src": "/assets/images/image2-960.webp",
+        "bytes": 35470,
+        "sha256": "4708afffd96f8668085d9c4943656bfd1df139d56fa215e0229c634bb47d4ce8",
+        "width": 960,
+        "height": 540
       }
     ]
   },

@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { ArrowRight } from "lucide-react";
-import { CtaLink, Section, SectionHeading } from "@/components/site/ui";
+import { CtaLink, Section, SectionHeading, TrustSignals } from "@/components/site/ui";
 import { TechnologyMarquee } from "@/components/site/TechnologyMarquee";
 import { cases, hero, heroStats, intro, whyUs } from "@/content/site";
 import { startingPrice } from "@/content/pricing";
@@ -48,6 +48,7 @@ function Index() {
                 {hero.secondaryCta.label}
               </CtaLink>
             </div>
+            <TrustSignals className="mx-auto mt-6 max-w-3xl" />
           </div>
         </div>
         <div className="rounded-t-2xl border-t border-border bg-background/80 backdrop-blur-sm">
@@ -123,9 +124,9 @@ function Index() {
         <SectionHeading
           eyebrow="Utvalda arbeten"
           title="Sidor med egen karaktär"
-          intro="Kafé, salong och juridik — olika verksamheter med olika uttryck."
+          intro="Café, event, skönhet och juridik — olika verksamheter med olika behov och uttryck."
         />
-        <div className="mt-10 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+        <div className="mt-10 grid gap-6 md:grid-cols-2">
           {cases.map((c) => (
             <Link
               key={c.slug}
@@ -175,6 +176,7 @@ function Index() {
               </Link>
             </Button>
           </div>
+          <TrustSignals className="mx-auto mt-6 max-w-4xl" />
         </div>
       </Section>
     </>

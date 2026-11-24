@@ -1,8 +1,9 @@
 import { Link } from "@tanstack/react-router";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, Check } from "lucide-react";
 import type { ReactNode } from "react";
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
+import { trustSignals } from "@/content/site";
 export function Section({
   children,
   className,
@@ -81,6 +82,24 @@ export function CtaLink({
     </Button>
   );
 }
+export function TrustSignals({ className }: { className?: string }) {
+  return (
+    <ul
+      className={cn(
+        "flex flex-wrap justify-center gap-x-5 gap-y-2 text-xs leading-relaxed text-muted-foreground",
+        className,
+      )}
+      aria-label="Trygghet när du anlitar DALADANA"
+    >
+      {trustSignals.map((signal) => (
+        <li key={signal} className="inline-flex items-center gap-1.5">
+          <Check className="size-3.5 shrink-0 text-copper" aria-hidden="true" />
+          <span>{signal}</span>
+        </li>
+      ))}
+    </ul>
+  );
+}
 export function ContactCta({ title, text }: { title: string; text: string }) {
   return (
     <Section className="bg-muted text-foreground">
@@ -95,6 +114,7 @@ export function ContactCta({ title, text }: { title: string; text: string }) {
             </Link>
           </Button>
         </div>
+        <TrustSignals className="mx-auto mt-6 max-w-4xl" />
       </div>
     </Section>
   );

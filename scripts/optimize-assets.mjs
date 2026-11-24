@@ -20,6 +20,8 @@ const sizes = {
   "samir-ahmad.png": { widths: [480, 768], sizes: "(max-width: 767px) calc(100vw - 48px), 40vw" },
   "dalarna-winter-desktop.jpg": { widths: [960, 1440, 1920], sizes: "100vw" },
   "dalarna-winter-mobile.png": { widths: [480, 768, 960], sizes: "100vw" },
+  "image1.png": { widths: [960, 1440, 1584], sizes: "100vw" },
+  "image2.png": { widths: [480, 768, 960], sizes: "100vw" },
   "dalarna-hero.jpg": { widths: [768, 1280, 1920], sizes: "100vw" },
 };
 

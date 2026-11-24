@@ -62,16 +62,24 @@ export const heroStats = [
   { value: "0 mallar", label: "Varje sida ritas efter er verksamhet" },
 ];
 
+export const trustSignals = [
+  "Fast offert innan start",
+  "Gratis första rådgivning",
+  "Direktkontakt med Samir",
+  "Ni äger webbplatsen och innehållet",
+  "Lokal hjälp från Ludvika",
+];
+
 export const whyUs = {
   eyebrow: "Varför välja oss?",
   title: "DALADANA",
   subtitle: "DIGITALA BYRÅ",
   paragraphs: [
-    "Ni behöver en partner som förstår verksamheten, ger en tydlig offert och bygger något som hjälper era kunder. Jag tar mig tid att förstå vad ni behöver och föreslår ett upplägg som passar.",
-    "Hos DALADANA får ni en gratis prototyp innan ni bestämmer er, en offert på vanlig svenska och direktkontakt med mig från första samtal till lansering. Jag bygger mobilanpassade och sökoptimerade sidor med moderna verktyg — och ni äger koden och innehållet själva.",
+    "DALADANA är min digitalbyrå. Du har direktkontakt med mig, Samir, genom hela projektet.",
+    "Se ett första designförslag innan du bestämmer dig. Du får en offert på vanlig svenska, och jag bygger en mobilanpassad och sökoptimerad sida med moderna verktyg — du äger koden och innehållet själv.",
     "Efter lansering kan jag hjälpa till med ändringar, frågor och nästa steg när verksamheten växer. Löpande hjälp avtalas separat.",
   ],
-  pills: ["Gratis prototyp", "Fast pris", "Ni äger allt", "Lokal support i Dalarna"],
+  pills: ["Första designförslag", "Fast pris", "Du äger allt", "Lokal support i Dalarna"],
   aboutLink: "Läs mer om oss",
 };
 
@@ -596,6 +604,15 @@ export type CaseItem = {
   subtitle: string;
   summary: string;
   tags: string[];
+  industry: string;
+  location?: string;
+  delivery?: string;
+  services: string[];
+  need: string;
+  built: string[];
+  process: string;
+  results: string[];
+  testimonial: string[];
   url?: string;
   image: string;
   imageAsset: LocalImage;
@@ -609,10 +626,32 @@ export const cases: CaseItem[] = [
   {
     slug: "lilla-kaffehuset",
     name: "Lilla Kaffehuset",
-    subtitle: "Hemsida för ett personligt kafé",
+    subtitle: "Från företagsidé till digital närvaro",
     summary:
-      "En webbplats för Lilla Kaffehuset med varm färgskala, meny, öppettider och kontaktinformation.",
-    tags: ["Hemsida", "Kafé"],
+      "En varm och mobilanpassad webbplats med lokal SEO och Google Företagsprofil, framtagen från demo till lansering på två veckor.",
+    tags: ["Webbutveckling", "SEO", "Google Företagsprofil"],
+    industry: "Café och restaurang",
+    location: "Ludvika",
+    delivery: "2 veckor",
+    services: ["Webbutveckling", "SEO", "Google Företagsprofil"],
+    need: "Lilla Kaffehuset var i början av sin företagsresa och behövde en professionell digital närvaro som kunde spegla verksamheten, nå lokala kunder och ge en stabil grund för fortsatt marknadsföring.",
+    built: [
+      "Modern, mobilanpassad webbplats med en design för verksamhetens identitet",
+      "Sökmotoroptimering och Google Företagsprofil för lokal synlighet",
+      "Teknisk lösning för domän, webbhotell och underhåll",
+    ],
+    process:
+      "Efter en gemensam behovsdialog tog jag fram en demoversion som kunden kunde testa och påverka. Synpunkterna arbetades in före lanseringen av den färdiga webbplatsen två veckor senare.",
+    results: [
+      "Färdig och publicerad webbplats",
+      "Digital närvaro anpassad efter verksamhetens behov",
+      "Grund för fortsatt lokal och digital marknadsföring",
+    ],
+    testimonial: [
+      "Tack så mycket för ditt tydliga svar och för att du är så hjälpsam!",
+      "Tack igen för ditt engagemang och fina samarbete!",
+    ],
+    url: "https://lillakaffehuset.se/",
     image: assets.caseKaffehuset.src,
     imageAsset: assets.caseKaffehuset,
     imageSrcSet: assets.caseKaffehuset.srcSet,
@@ -621,12 +660,66 @@ export const cases: CaseItem[] = [
     imageSizes: assets.caseKaffehuset.sizes,
   },
   {
-    slug: "rozans-hair",
-    name: "RozanS Hair Style Bromma",
-    subtitle: "Hemsida med bokning för salong",
+    slug: "arya-entertainment",
+    name: "Arya Entertainment",
+    subtitle: "Från idé till digital eventplattform på en vecka",
     summary:
-      "Webbplats för RozanS Hair Style Bromma med presentation av salongen, information om tjänster och en väg till bokning och kontakt.",
-    tags: ["Hemsida", "Bokning"],
+      "En modern eventwebbplats med administrationsportal, utbildning och fortsatt support, levererad genom ett nära distanssamarbete på en vecka.",
+    tags: ["Webbutveckling", "Adminportal", "Utbildning"],
+    industry: "Event och underhållning",
+    delivery: "1 vecka",
+    services: ["Webbutveckling", "Administrationsportal", "Utbildning", "Support och underhåll"],
+    need: "Arya Entertainment behövde en professionell webbplats för att presentera verksamheten och marknadsföra evenemang, med möjlighet att själv administrera innehållet.",
+    built: [
+      "Modern, mobilanpassad webbplats i företagets visuella identitet",
+      "Administrationsportal för innehåll och evenemang",
+      "Utbildning, support och tekniskt underhåll",
+    ],
+    process:
+      "Arbetet genomfördes helt på distans med täta avstämningar och möten anpassade efter kundens tider, även under helgen. Den effektiva processen tog projektet från beställning till färdig leverans på en vecka.",
+    results: [
+      "Publicerad webbplats inom en vecka",
+      "Administrationsportal som kunden själv kan använda",
+      "Genomförd utbildning och tillgång till fortsatt support",
+    ],
+    testimonial: [
+      "Stort tack för den snabba leveransen och all hjälp!",
+      "Vi är verkligen nöjda med hemsidan. Tack för att du alltid är tillgänglig!",
+    ],
+    url: "https://aryaentertainment.se/",
+    image: assets.caseArya.src,
+    imageAsset: assets.caseArya,
+    imageSrcSet: assets.caseArya.srcSet,
+    imageWidth: assets.caseArya.width,
+    imageHeight: assets.caseArya.height,
+    imageSizes: assets.caseArya.sizes,
+  },
+  {
+    slug: "rozans-hair",
+    name: "Rozans Hair Style",
+    subtitle: "En personlig hemsida för en ny företagsresa",
+    summary:
+      "En personlig, mobilanpassad salongswebbplats där färger, bilder och layout formades i nära dialog med kunden.",
+    tags: ["Webbutveckling", "Webbdesign", "Mobilanpassning"],
+    industry: "Hårvård och skönhet",
+    services: ["Webbutveckling", "Webbdesign", "Mobilanpassning"],
+    need: "Rozans Hair Style behövde en professionell webbplats som speglar salongens identitet, presenterar tjänsterna tydligt och etablerar verksamhetens digitala närvaro.",
+    built: [
+      "Modern och mobilanpassad webbplats",
+      "Personlig design utifrån kundens önskemål",
+      "Tydlig presentation av verksamheten och dess tjänster",
+    ],
+    process:
+      "Jag tog fram en demoversion som kunden granskade och kommenterade. Genom en nära dialog anpassades innehåll, bilder, färger och layout efter kundens vision.",
+    results: [
+      "Färdig och publicerad webbplats",
+      "Personlig digital företagsidentitet",
+      "Professionell presentation av salongens verksamhet",
+    ],
+    testimonial: [
+      "Hemsidan blev precis som jag ville ha den. Tack för ett jättefint jobb!",
+      "Tack för att du lyssnade på mina önskemål och tog dig tid att hjälpa mig!",
+    ],
     url: "https://rozanshair.se",
     image: assets.caseRozans.src,
     imageAsset: assets.caseRozans,
@@ -637,11 +730,30 @@ export const cases: CaseItem[] = [
   },
   {
     slug: "global-juridik",
-    name: "Global Juridik Gruppen",
-    subtitle: "Flerspråkig sida för juridisk byrå",
+    name: "Globala Juridikgruppen",
+    subtitle: "Från en god idé till samhällsnytta",
     summary:
-      "En flerspråkig webbplats för Global Juridik Gruppen med presentation av tjänster, språkval och kontaktvägar i en tydlig struktur.",
-    tags: ["Hemsida", "Flerspråkigt"],
+      "En förtroendeingivande och tillgänglig webbplats som presenterar juridiska tjänster, medarbetare och tydliga kontaktvägar.",
+    tags: ["Webbutveckling", "Webbdesign", "Mobilanpassning"],
+    industry: "Juridik och rådgivning",
+    services: ["Webbutveckling", "Webbdesign", "Mobilanpassning"],
+    need: "Globala Juridikgruppen behövde omvandla sin ambition att hjälpa människor med juridiska frågor till en professionell, tillgänglig och förtroendeingivande digital närvaro.",
+    built: [
+      "Modern och mobilanpassad webbplats",
+      "Tydlig presentation av juridiska tjänster och medarbetarprofiler",
+      "Struktur som gör det enkelt att hitta information och ta kontakt",
+    ],
+    process:
+      "I två gemensamma granskningsomgångar anpassade jag design, innehåll och struktur efter kundens vision innan webbplatsen färdigställdes och lanserades.",
+    results: [
+      "Färdig och publicerad webbplats",
+      "Professionell digital identitet och kontaktväg",
+      "Digital grund för verksamhetens fortsatta utveckling",
+    ],
+    testimonial: [
+      "Stort tack för ditt engagemang och för att du hjälpte oss att förverkliga vår idé!",
+      "Vi uppskattar verkligen ditt arbete och det fina samarbetet!",
+    ],
     url: "https://globalajuridikgruppen.se",
     image: assets.caseJuridik.src,
     imageAsset: assets.caseJuridik,
@@ -807,7 +919,7 @@ export const maintenanceNote = `Domän och hosting behövs för att webbplatsen 
 export const pricingIntro = {
   eyebrow: "Priskalkylator",
   title: "Vad kostar en hemsida?",
-  text: "Välj vad du behöver så räknar vi ut ett riktpris direkt. Inget är bindande — du får alltid en gratis prototyp och en exakt offert innan du bestämmer dig.",
+  text: "Välj vad du behöver så räknar vi ut ett riktpris direkt. Inget är bindande — du får se ett första designförslag och får en exakt offert innan du bestämmer dig.",
 };
 
 export const standaloneSeo = {

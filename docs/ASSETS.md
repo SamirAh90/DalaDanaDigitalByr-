@@ -15,11 +15,16 @@ Tabellen jämför originalet med den största publicerade bildvarianten. På min
 | Juridikcase              | 1 929 454 byte | 106 128 byte, 1200 px |    94,5 % |
 | Kaffehuscase             | 2 143 375 byte | 112 280 byte, 1200 px |    94,8 % |
 | Rozanscase               | 1 935 765 byte |  94 812 byte, 1200 px |    95,1 % |
+| Arya-case¹               |         saknas | 146 318 byte, 1200 px |         — |
 | Vinterfoto, mobil        | 2 162 324 byte |   44 346 byte, 960 px |    97,9 % |
 | Vinterfoto, desktop      |   133 200 byte |  77 768 byte, 1920 px |    41,6 % |
+| Om oss, desktop          |   781 100 byte |  35 824 byte, 1584 px |    95,4 % |
+| Om oss, mobil          | 2 134 611 byte |  35 470 byte, 960 px |    98,3 % |
 | Samir Ahmad              |   453 483 byte |   23 672 byte, 677 px |    94,8 % |
 | Logotypmarkering         |   193 802 byte |   18 702 byte, 256 px |    90,3 % |
 | Befintlig större logotyp |   571 111 byte |   79 036 byte, 861 px |    86,2 % |
+
+¹ Originalfilen för Arya Entertainment saknas. De tre användarvalda WebP-varianterna finns lokalt och är registrerade med storlek och SHA-256 i inventeringen. Förväntad originalplats är `public/assets/originals/case-arya.png`; ingen annan bild har använts som ersättning.
 
 Header/footer kan använda 64-pixelsvarianten av logotypmarkeringen, 3 746 byte, eller 128-pixelsvarianten på skärmar med hög pixeltäthet. Hero-stillbilden för mobil är 38 756 byte vid 480 px och 77 550 byte vid 768 px. Den kommer från en bildruta i samma valda video, inte ett ersättningsfoto.
 
